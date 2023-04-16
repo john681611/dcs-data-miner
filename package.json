@@ -1,0 +1,11 @@
+{
+  "name": "dcs-data-miner",
+  "version": "1.0.0",
+  "description": "This project spins up a local MongoDB using docker and when `seed.js` is run it will mine DCS for data.",
+  "main": "config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

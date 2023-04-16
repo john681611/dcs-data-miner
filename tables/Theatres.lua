@@ -1,0 +1,2 @@
+--- GUI:default
+return theatres
