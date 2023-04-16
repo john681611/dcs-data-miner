@@ -1,4 +1,5 @@
 # Data Miner
+Project initially created as part of: https://github.com/JonathanTurnock/dcs-mission-maker
 
 This project spins up a local MongoDB using docker and when `seed.js` is run it will mine DCS for data.
 
