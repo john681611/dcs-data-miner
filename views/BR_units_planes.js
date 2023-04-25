@@ -49,7 +49,6 @@ const pipeline = [
         'defValue': 1,
       },
       'panelRadio': 1,
-      'playable': 1,
       'radio': 1,
       'ammoType': 1,
       'countries': '$Countries.Name',
