@@ -14,7 +14,6 @@ const pipeline = [
       'chaff': '$passivCounterm.chaff.default',
       'extraProps': '$AddPropAircraft',
       'panelRadio': 1,
-      'playable': "$HumanCockpit",
       'radio': {
         'frequency': '$HumanRadio.frequency',
         'modulation': '$HumanRadio.modulation',
