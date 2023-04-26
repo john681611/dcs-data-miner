@@ -8,6 +8,7 @@ const extractMap = {
     'BR_units_cars': 'UnitCars',
     'BR_units_planes': 'UnitPlanes',
     'BR_units_helicopters': 'UnitHelicopters',
+    'BR_units_ships': 'UnitShips',
 }
 
 async function run() {
