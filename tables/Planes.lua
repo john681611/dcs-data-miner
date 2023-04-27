@@ -1,13 +1,12 @@
 --- GUI:default
 local loadoutUtils = require('me_loadoututils')
 me_loadoututils.initBriefingRoomPayloads(nil,nil,nil)
-local units = me_db.db.Units.Planes.Plane
+local units = me_db_api.db.Units.Planes.Plane
 local _list = {}
 local banList = { -- Rows of data that seems to be very broken
-    [34] = true,
-    [69] = true,
-    [70] = true,
-
+    [34] = true, -- MiG-29S
+    -- [69] = true, -- KC130 fix pending: WorldID == WSTYPE_PLACEHOLDER,  =>  WorldID = WSTYPE_PLACEHOLDER, DCS World OpenBeta\CoreMods\aircraft\AV8BNA\KC130.lua
+    -- [70] = true, -- KC135MPRS fix pending: WorldID == WSTYPE_PLACEHOLDER,  =>  WorldID = WSTYPE_PLACEHOLDER, DCS World OpenBeta\CoreMods\aircraft\AV8BNA\KC135MPRS.lua
 }
 for k, v in pairs(units) do
     if banList[k] == nil then
