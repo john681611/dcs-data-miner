@@ -1,2 +1,2 @@
---- GUI:default
+--- GUI:default:type
 return Sensors.Sensor

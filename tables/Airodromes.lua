@@ -1,4 +1,4 @@
---- GUI:default
+--- GUI:default:id
 -- Guard against mission not loaded (Mission must be running for this to work)
 if (DCS.getTheatreID() == nil) then
     return {}

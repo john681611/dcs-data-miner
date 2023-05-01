@@ -1,4 +1,4 @@
---- GUI:default
+--- GUI:default:type
 local loadoutUtils = require('me_loadoututils')
 me_loadoututils.initBriefingRoomPayloads(nil,nil,nil)
 local units = me_db_api.db.Units.Planes.Plane

@@ -1,6 +1,6 @@
 const Aigle = require("aigle");
 const { MongoClient } = require("mongodb");
-const { get } = require("lodash");
+const { get, filter } = require("lodash");
 const hash = require("object-hash");
 const { glob } = require("glob");
 const { basename, extname } = require("path");
@@ -21,16 +21,17 @@ const sign = (obj, dcsVersion) => {
   return obj;
 };
 
-const populateCollection = (dcsVersion) => async ({ name, data }) => {
+const populateCollection = (dcsVersion) => async ({ name, data, keyFields }) => {
   console.log(`Adding ${name} to DB`);
   const collection = await meDb.collection(name);
 
   await Aigle.eachSeries(data, async (value, _) => {
     try {
       const signed = sign(value, dcsVersion);
+      const filter = keyFields.reduce((a, v) => ({ ...a, [v]: signed[v]}), {}) //Can add in DCS version here if we want to support multiple versions in the future.
       // use upsert to avoid duplication when running more than once (Eg more than one theater)
       await collection.updateOne(
-        { _id: signed._id, "@dcsversion": signed["@dcsversion"] },
+        filter,
         { $set: signed },
         { upsert: true },
       ); // TODO: Use Bulk Insert
@@ -57,7 +58,8 @@ async function run() {
     async (_path) => {
       console.log(`Processing ${_path}`);
       const exportScript = readFileSync(_path, "utf-8");
-      const [_, target, env] = exportScript.match(/^.*?(GUI|MISSION):(\w*)/);
+      const [_, target, env, keyFieldsStr] = exportScript.match(/^.*?(GUI|MISSION):(\w*):?(\w*,?\w*)/);
+      const keyFields = keyFieldsStr.split(",")
       const name = basename(_path).replace(extname(_path), "");
       const baseURL = ENVS[target];
 
@@ -79,7 +81,7 @@ async function run() {
         data = schema.cast(data);
       }
 
-      return { name, data };
+      return { name, data, keyFields };
     },
   );
 

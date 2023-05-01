@@ -1,4 +1,4 @@
---- GUI:default
+--- GUI:default:name,country
 local base = _G
 local T	= tools
 local ConfigHelper	= require('ConfigHelper')
