@@ -22,7 +22,8 @@ const pipeline = [
       'inheriteCommonCallnames': '$InheriteCommonCallnames',
       'specificCallnames': '$SpecificCallnames',
       'maxAlt': '$H_stat_max',
-      'cruiseSpeed': '$V_max_cruise'
+      'cruiseSpeed': '$V_max_cruise',
+      'shape': '$Shape',
     }
   }, {
     '$lookup': {
@@ -56,7 +57,8 @@ const pipeline = [
       'inheriteCommonCallnames': 1,
       'specificCallnames': 1,
       'maxAlt': 1,
-      'cruiseSpeed': 1
+      'cruiseSpeed': 1,
+      'shape': 1
     }
   }
 ]
