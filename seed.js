@@ -95,7 +95,7 @@ async function run() {
     const { pipeline, collection, name } = require(resolve(_path));
     console.log(`Adding View ${name}`);
     await meDb
-      .command({ create: name, viewOn: collection, pipeline })
+      .command({ collMod: name, viewOn: collection, pipeline })
       .catch((e) =>
         console.error(`Failed to create view ${name} due to ${e.message}`),
       );
