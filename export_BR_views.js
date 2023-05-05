@@ -11,6 +11,7 @@ const extractMap = {
     'BR_units_ships': 'UnitShips',
     'BR_units_static_Fortifications': 'UnitFortifications',
     'BR_units_static_Warehouses': 'UnitWarehouses',
+    'BR_units_cargo': 'UnitCargo',
     'Templates': 'Templates'
 }
 
