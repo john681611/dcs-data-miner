@@ -96,9 +96,12 @@ async function run() {
     console.log(`Adding View ${name}`);
     await meDb
       .command({ collMod: name, viewOn: collection, pipeline })
-      .catch((e) =>
-        console.error(`Failed to create view ${name} due to ${e.message}`),
-      );
+      .catch(async(e) => {
+        console.error(`Failed to update view ${name} due to ${e.message}`)
+        await meDb
+          .command({ create: name, viewOn: collection, pipeline })
+          .catch((e) => console.error(`Failed to create view ${name} due to ${e.message}`))
+      });
   });
   console.log("Created Views");
 
