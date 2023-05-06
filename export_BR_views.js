@@ -13,7 +13,8 @@ const extractMap = {
     'BR_units_static_Warehouses': 'UnitWarehouses',
     'BR_units_cargo': 'UnitCargo',
     'BR_units_static_Heliports': 'UnitHeliports',
-    'Templates': 'Templates'
+    'Templates': 'Templates',
+    'BR_layouts': 'Layouts'
 }
 
 async function run() {

@@ -1,4 +1,4 @@
---- GUI:default:name,country
+--- GUI:default:name
 local base = _G
 local T	= tools
 local ConfigHelper	= require('ConfigHelper')
@@ -20,7 +20,7 @@ function load_templates()
 		tmpTemplates = (fTempl and fTempl.templates) or {}
 		for templName, templ in pairs(tmpTemplates) do
 			--fix templates name
-			if not startswith(templ.name, "LAY ") then
+			if startswith(templ.name, "LAY ") then
 				
 				if templName ~= templ.name then
 					templ.name = templName
