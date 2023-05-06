@@ -5,7 +5,8 @@ const pipeline = [
       'displayName': '$DisplayName',
       'categories': '$Categories',
       'module': '$_origin',
-      'shape': '$visual.shape'
+      'shape': '$visual.shape',
+      'numParking': 1,
     }
   }, {
     '$lookup': {
@@ -22,7 +23,8 @@ const pipeline = [
       'module': 1,
       'countries': '$Countries.Name',
       'countriesWorldID': '$Countries.WorldID',
-      'shape': 1
+      'shape': 1,
+      'numParking': 1,
     }
   }
 ]
