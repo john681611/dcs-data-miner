@@ -15,7 +15,6 @@ const mongo = new MongoClient(MONGO_URL);
 const meDb = mongo.db(DB_NAME);
 
 const sign = (obj, dcsVersion) => {
-  obj["_id"] = hash(obj);
   obj["@created"] = new Date().toISOString();
   obj["@dcsversion"] = dcsVersion;
   return obj;
@@ -36,7 +35,7 @@ const populateCollection = (dcsVersion) => async ({ name, data, keyFields }) => 
         { upsert: true },
       ); // TODO: Use Bulk Insert
     } catch (e) {
-      debug(e.message);
+      console.warn(e.message);
     }
   });
 };
