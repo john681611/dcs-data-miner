@@ -23,7 +23,10 @@ const pipeline = [
       'specificCallnames': '$SpecificCallnames',
       'maxAlt': '$H_max',
       'cruiseSpeed': '$V_opt',
-      'shape': '$Shape'
+      'shape': '$Shape',
+      'height': 1,
+      'length': 1,
+      'width': '$wing_span'
     }
   }, {
     '$lookup': {
@@ -58,7 +61,10 @@ const pipeline = [
       'specificCallnames': 1,
       'maxAlt': 1,
       'cruiseSpeed': 1,
-      'shape': 1
+      'shape': 1,
+      'height': 1,
+      'length': 1,
+      'width': 1
     }
   }
 ]

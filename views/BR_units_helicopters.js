@@ -24,6 +24,9 @@ const pipeline = [
       'maxAlt': '$H_stat_max',
       'cruiseSpeed': '$V_max_cruise',
       'shape': '$Shape',
+      'height': 1,
+      'length': 1,
+      'width': '$rotor_diameter'
     }
   }, {
     '$lookup': {
@@ -58,7 +61,10 @@ const pipeline = [
       'specificCallnames': 1,
       'maxAlt': 1,
       'cruiseSpeed': 1,
-      'shape': 1
+      'shape': 1,
+      'height': 1,
+      'length': 1,
+      'width': 1
     }
   }
 ]
