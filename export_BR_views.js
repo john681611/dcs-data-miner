@@ -14,7 +14,8 @@ const extractMap = {
     'BR_units_cargo': 'UnitCargo',
     'BR_units_static_Heliports': 'UnitHeliports',
     'Templates': 'Templates',
-    'BR_layouts': 'Layouts'
+    'BR_layouts': 'Layouts',
+    'BR_airbases': 'TheatersAirbases'
 }
 
 async function run() {
