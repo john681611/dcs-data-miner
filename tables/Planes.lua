@@ -9,7 +9,7 @@ local banList = { -- Rows of data that seems to be very broken
     -- [70] = true, -- KC135MPRS fix pending: WorldID == WSTYPE_PLACEHOLDER,  =>  WorldID = WSTYPE_PLACEHOLDER, DCS World OpenBeta\CoreMods\aircraft\AV8BNA\KC135MPRS.lua
 }
 for k, v in pairs(units) do
-    if banList[k] == nil then
+    if banList[k] == nil and v[1] == nil then
     local schemes = {}
     for ck, cv in pairs(me_db.db.Countries) do -- This is slow need to find a way to only iterate though countries that are actually used
         local sub_scheme = {}
