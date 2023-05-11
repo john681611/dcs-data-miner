@@ -1,5 +1,13 @@
 const pipeline = [
   {
+    '$match': {
+      '_file': {
+        '$not': {
+          '$regex': new RegExp('^C:')
+        }
+      }
+    }
+  },{
     '$project': {
       'type': 1,
       'displayName': '$DisplayName',

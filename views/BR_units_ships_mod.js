@@ -2,19 +2,17 @@ const pipeline = [
   {
     '$match': {
       '_file': {
-        '$not': {
-          '$regex': new RegExp('^C:')
-        }
+        '$regex': new RegExp('^C:')
       }
     }
   }, {
     '$project': {
       'type': 1,
       'displayName': '$DisplayName',
-      'category': 1,
+      'categories': '$Categories',
       'module': '$_origin',
-      'paintSchemes': 1,
-      'shape': '$visual.shape'
+      'shape': '$visual.shape',
+      'numParking': 1,
     }
   }, {
     '$lookup': {
@@ -27,18 +25,18 @@ const pipeline = [
     '$project': {
       'type': 1,
       'displayName': 1,
-      'category': 1,
+      'categories': 1,
       'module': 1,
-      'paintSchemes': 1,
       'countries': '$Countries.Name',
       'countriesWorldID': '$Countries.WorldID',
-      'shape': 1
+      'shape': 1,
+      'numParking': 1,
     }
   }
 ]
 
 module.exports = {
   pipeline,
-  collection: "Cars",
-  name: "BR_units_cars",
+  collection: "Ships",
+  name: "BR_units_ships_mod",
 };
