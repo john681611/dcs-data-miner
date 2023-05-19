@@ -23,21 +23,25 @@ const sign = (obj, dcsVersion) => {
 const populateCollection = (dcsVersion) => async ({ name, data, keyFields }) => {
   console.log(`Adding ${name} to DB`);
   const collection = await meDb.collection(name);
-
+  let modifiedCount = 0
+  let upsertedCount = 0
   await Aigle.eachSeries(data, async (value, _) => {
     try {
       const signed = sign(value, dcsVersion);
       const filter = keyFields.reduce((a, v) => ({ ...a, [v]: signed[v]}), {}) //Can add in DCS version here if we want to support multiple versions in the future.
       // use upsert to avoid duplication when running more than once (Eg more than one theater)
-      await collection.updateOne(
+      const response = await collection.updateOne(
         filter,
         { $set: signed },
         { upsert: true },
       ); // TODO: Use Bulk Insert
+      modifiedCount += response.modifiedCount
+      upsertedCount += response.upsertedCount
     } catch (e) {
       console.warn(e.message);
     }
   });
+  console.log(`Upsert Result - Name: ${name}, Total: ${data.length}, Mod: ${modifiedCount}, Upserted: ${upsertedCount}`)
 };
 
 async function run() {
