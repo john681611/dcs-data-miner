@@ -5,6 +5,7 @@ me_loadoututils.initBriefingRoomPayloads(nil,nil,nil)
 local _list = {}
 for k, v in pairs(units) do
     local schemes = {}
+    local callsigns = {}
     for ck, cv in pairs(me_db.db.Countries) do -- This is slow need to find a way to only iterate though countries that are actually used
         local sub_scheme = {}
         local liveriesData = DCS.getObjectLiveriesNames(string.gsub(v.type, '/', '_'), cv.ShortName,
@@ -16,9 +17,10 @@ for k, v in pairs(units) do
             end
             schemes[tostring(cv.WorldID)] = sub_scheme
         end
-
+        callsigns[tostring(cv.WorldID)] = me_db_api.db.getCallnames(cv.WorldID, v.type) or	me_db_api.db.getUnitCallnames(cv.WorldID, me_db_api.unit_by_type[v.type].attribute)
     end
     v['paintSchemes'] = schemes
+    v['callsigns'] = callsigns
     v['payloadPresets'] = me_loadoututils.getUnitPayloads(v.type)
     table.insert(_list, v)
 end
