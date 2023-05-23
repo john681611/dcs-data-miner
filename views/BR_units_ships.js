@@ -1,13 +1,7 @@
-const pipeline = [
+const { pipelineVanillaOnlyFilter } = require('../viewsUtils')
+
+const basePipeline = [
   {
-    '$match': {
-      '_file': {
-        '$not': {
-          '$regex': new RegExp('^C:')
-        }
-      }
-    }
-  },{
     '$project': {
       'type': 1,
       'displayName': '$DisplayName',
@@ -37,7 +31,13 @@ const pipeline = [
   }
 ]
 
+const pipeline = [
+  pipelineVanillaOnlyFilter,
+  ...basePipeline
+]
+
 module.exports = {
+  basePipeline,
   pipeline,
   collection: "Ships",
   name: "BR_units_ships",

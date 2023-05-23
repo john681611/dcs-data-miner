@@ -1,13 +1,7 @@
-const pipeline = [
+const { pipelineVanillaOnlyFilter } = require('../viewsUtils')
+
+const basePipeline = [
   {
-    '$match': {
-      '_file': {
-        '$not': {
-          '$regex': new RegExp('^C:')
-        }
-      }
-    }
-  },{
     '$project': {
       'type': 1,
       'displayName': '$DisplayName',
@@ -27,14 +21,13 @@ const pipeline = [
         'modulation': '$HumanRadio.modulation',
       },
       'ammoType': '$ammo_type_default',
-      'inheriteCommonCallnames': '$InheriteCommonCallnames',
-      'specificCallnames': '$SpecificCallnames',
       'maxAlt': '$H_stat_max',
       'cruiseSpeed': '$V_max_cruise',
       'shape': '$Shape',
       'height': 1,
       'length': 1,
-      'width': '$rotor_diameter'
+      'width': '$rotor_diameter',
+      'callsigns': 1
     }
   }, {
     '$lookup': {
@@ -65,19 +58,24 @@ const pipeline = [
       'ammoType': 1,
       'countries': '$Countries.Name',
       'countriesWorldID': '$Countries.WorldID',
-      'inheriteCommonCallnames': 1,
-      'specificCallnames': 1,
       'maxAlt': 1,
       'cruiseSpeed': 1,
       'shape': 1,
       'height': 1,
       'length': 1,
-      'width': 1
+      'width': 1,
+      'callsigns': 1
     }
   }
 ]
 
+const pipeline = [
+  pipelineVanillaOnlyFilter,
+  ...basePipeline
+]
+
 module.exports = {
+  basePipeline,
   pipeline,
   collection: "Helicopters",
   name: "BR_units_helicopters",
