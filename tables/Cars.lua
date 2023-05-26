@@ -1,4 +1,4 @@
---- GUI:default
+--- GUI:default:type
 local units = me_db.db.Units.Cars.Car
 
 local _list = {}

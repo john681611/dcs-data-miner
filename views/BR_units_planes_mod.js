@@ -2,12 +2,10 @@ const pipeline = [
   {
     '$match': {
       '_file': {
-        '$not': {
-          '$regex': new RegExp('^C:')
-        }
+        '$regex': new RegExp('^C:')
       }
     }
-  },{
+  }, {
     '$project': {
       'type': 1,
       'displayName': '$DisplayName',
@@ -29,12 +27,12 @@ const pipeline = [
       'ammoType': '$ammo_type_default',
       'inheriteCommonCallnames': '$InheriteCommonCallnames',
       'specificCallnames': '$SpecificCallnames',
-      'maxAlt': '$H_stat_max',
-      'cruiseSpeed': '$V_max_cruise',
+      'maxAlt': '$H_max',
+      'cruiseSpeed': '$V_opt',
       'shape': '$Shape',
       'height': 1,
       'length': 1,
-      'width': '$rotor_diameter'
+      'width': '$wing_span'
     }
   }, {
     '$lookup': {
@@ -79,6 +77,6 @@ const pipeline = [
 
 module.exports = {
   pipeline,
-  collection: "Helicopters",
-  name: "BR_units_helicopters",
+  collection: 'Planes',
+  name: 'BR_units_planes_mod',
 };

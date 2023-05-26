@@ -1,5 +1,13 @@
 const pipeline = [
   {
+    '$match': {
+      '_file': {
+        '$not': {
+          '$regex': new RegExp('^C:')
+        }
+      }
+    }
+  },{
     '$project': {
       'type': 1,
       'displayName': '$DisplayName',
@@ -14,7 +22,6 @@ const pipeline = [
       'chaff': '$passivCounterm.chaff.default',
       'extraProps': '$AddPropAircraft',
       'panelRadio': 1,
-      'playable': "$HumanCockpit",
       'radio': {
         'frequency': '$HumanRadio.frequency',
         'modulation': '$HumanRadio.modulation',
@@ -23,7 +30,11 @@ const pipeline = [
       'inheriteCommonCallnames': '$InheriteCommonCallnames',
       'specificCallnames': '$SpecificCallnames',
       'maxAlt': '$H_max',
-      'cruiseSpeed': '$V_opt'
+      'cruiseSpeed': '$V_opt',
+      'shape': '$Shape',
+      'height': 1,
+      'length': 1,
+      'width': '$wing_span'
     }
   }, {
     '$lookup': {
@@ -50,7 +61,6 @@ const pipeline = [
         'defValue': 1,
       },
       'panelRadio': 1,
-      'playable': 1,
       'radio': 1,
       'ammoType': 1,
       'countries': '$Countries.Name',
@@ -58,7 +68,11 @@ const pipeline = [
       'inheriteCommonCallnames': 1,
       'specificCallnames': 1,
       'maxAlt': 1,
-      'cruiseSpeed': 1
+      'cruiseSpeed': 1,
+      'shape': 1,
+      'height': 1,
+      'length': 1,
+      'width': 1
     }
   }
 ]

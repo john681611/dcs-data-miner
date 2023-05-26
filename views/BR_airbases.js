@@ -98,6 +98,7 @@ const pipeline = [
     }
   }, {
     '$addFields': {
+      'stands': "$raw.stands",
       'airdromeData': {
         'runways': {
           '$map': {

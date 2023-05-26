@@ -1,9 +1,15 @@
---- GUI:default
+--- GUI:default:type
 local loadoutUtils = require('me_loadoututils')
 me_loadoututils.initBriefingRoomPayloads(nil,nil,nil)
-local units = me_db.db.Units.Planes.Plane
+local units = me_db_api.db.Units.Planes.Plane
 local _list = {}
+local banList = { -- Rows of data that seems to be very broken
+    [34] = true, -- MiG-29S
+    -- [69] = true, -- KC130 fix pending: WorldID == WSTYPE_PLACEHOLDER,  =>  WorldID = WSTYPE_PLACEHOLDER, DCS World OpenBeta\CoreMods\aircraft\AV8BNA\KC130.lua
+    -- [70] = true, -- KC135MPRS fix pending: WorldID == WSTYPE_PLACEHOLDER,  =>  WorldID = WSTYPE_PLACEHOLDER, DCS World OpenBeta\CoreMods\aircraft\AV8BNA\KC135MPRS.lua
+}
 for k, v in pairs(units) do
+    if banList[k] == nil and v[1] == nil then
     local schemes = {}
     for ck, cv in pairs(me_db.db.Countries) do -- This is slow need to find a way to only iterate though countries that are actually used
         local sub_scheme = {}
@@ -21,6 +27,7 @@ for k, v in pairs(units) do
     v['paintSchemes'] = schemes
     v['payloadPresets'] = me_loadoututils.getUnitPayloads(v.type)
     table.insert(_list, v)
+    end
 end
 
 return _list

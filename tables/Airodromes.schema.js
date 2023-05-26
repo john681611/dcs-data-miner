@@ -6,5 +6,6 @@ module.exports = zLuaArray(
     beacons: zLuaArray(),
     runways: zLuaArray(),
     runwayName: zLuaArray(),
+    stands: zLuaArray()
   }),
 );

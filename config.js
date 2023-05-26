@@ -1,7 +1,7 @@
 module.exports = {
   MONGO_URL: "mongodb://admin:admin@127.0.0.1:27017",
   DB_NAME: "me_db",
-  // FILES: "./tables/{Airbases,Airodromes,Terrains}.lua", // Run once per theatre
+  //FILES: "./tables/{Airbases,Airodromes,Terrains,Beacons,Radios}.lua", // Run once per theatre
   FILES: "./tables/*.lua", // Run once per dcs version
   VIEWS: "./views/*.js", // Run once per dcs version
   ENVS: {

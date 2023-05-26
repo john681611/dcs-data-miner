@@ -2,12 +2,10 @@ const pipeline = [
   {
     '$match': {
       '_file': {
-        '$not': {
-          '$regex': new RegExp('^C:')
-        }
+        '$regex': new RegExp('^C:')
       }
     }
-  },{
+  }, {
     '$project': {
       'type': 1,
       'displayName': '$DisplayName',
@@ -80,5 +78,5 @@ const pipeline = [
 module.exports = {
   pipeline,
   collection: "Helicopters",
-  name: "BR_units_helicopters",
+  name: "BR_units_helicopters_mod",
 };

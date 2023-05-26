@@ -1,4 +1,4 @@
---- MISSION:default
+--- MISSION:default:WorldID,theatre
 
 
 function generalPosObj(DCSpos)

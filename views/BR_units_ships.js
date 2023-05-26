@@ -1,10 +1,20 @@
 const pipeline = [
   {
+    '$match': {
+      '_file': {
+        '$not': {
+          '$regex': new RegExp('^C:')
+        }
+      }
+    }
+  },{
     '$project': {
       'type': 1,
       'displayName': '$DisplayName',
       'categories': '$Categories',
       'module': '$_origin',
+      'shape': '$visual.shape',
+      'numParking': 1,
     }
   }, {
     '$lookup': {
@@ -20,7 +30,9 @@ const pipeline = [
       'categories': 1,
       'module': 1,
       'countries': '$Countries.Name',
-      'countriesWorldID': '$Countries.WorldID'
+      'countriesWorldID': '$Countries.WorldID',
+      'shape': 1,
+      'numParking': 1,
     }
   }
 ]

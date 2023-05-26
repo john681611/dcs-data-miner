@@ -1,4 +1,4 @@
---- GUI:default
+--- GUI:default:beaconId,theatre
 -- Guard against mission not loaded
 if (DCS.getTheatreID() == nil) then
     console.warning("WARNING: Not in mission can't extact Beacons")

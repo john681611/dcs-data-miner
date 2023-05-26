@@ -1,8 +1,8 @@
 const Aigle = require("aigle");
 const { MongoClient } = require("mongodb");
-const { get } = require("lodash");
+const { get, filter } = require("lodash");
 const hash = require("object-hash");
-const glob = require("glob");
+const { glob } = require("glob");
 const { basename, extname } = require("path");
 const axios = require("axios");
 const { readFileSync, pathExists } = require("fs-extra");
@@ -15,29 +15,33 @@ const mongo = new MongoClient(MONGO_URL);
 const meDb = mongo.db(DB_NAME);
 
 const sign = (obj, dcsVersion) => {
-  obj["_id"] = hash(obj);
   obj["@created"] = new Date().toISOString();
   obj["@dcsversion"] = dcsVersion;
   return obj;
 };
 
-const populateCollection = (dcsVersion) => async ({ name, data }) => {
+const populateCollection = (dcsVersion) => async ({ name, data, keyFields }) => {
   console.log(`Adding ${name} to DB`);
   const collection = await meDb.collection(name);
-
+  let modifiedCount = 0
+  let upsertedCount = 0
   await Aigle.eachSeries(data, async (value, _) => {
     try {
       const signed = sign(value, dcsVersion);
+      const filter = keyFields.reduce((a, v) => ({ ...a, [v]: signed[v]}), {}) //Can add in DCS version here if we want to support multiple versions in the future.
       // use upsert to avoid duplication when running more than once (Eg more than one theater)
-      await collection.updateOne(
-        { _id: signed._id, "@dcsversion": signed["@dcsversion"] },
+      const response = await collection.updateOne(
+        filter,
         { $set: signed },
         { upsert: true },
       ); // TODO: Use Bulk Insert
+      modifiedCount += response.modifiedCount
+      upsertedCount += response.upsertedCount
     } catch (e) {
-      debug(e.message);
+      console.warn(e.message);
     }
   });
+  console.log(`Upsert Result - Name: ${name}, Total: ${data.length}, Mod: ${modifiedCount}, Upserted: ${upsertedCount}`)
 };
 
 async function run() {
@@ -57,7 +61,8 @@ async function run() {
     async (_path) => {
       console.log(`Processing ${_path}`);
       const exportScript = readFileSync(_path, "utf-8");
-      const [_, target, env] = exportScript.match(/^.*?(GUI|MISSION):(\w*)/);
+      const [_, target, env, keyFieldsStr] = exportScript.match(/^.*?(GUI|MISSION):(\w*):?(\w*,?\w*)/);
+      const keyFields = keyFieldsStr.split(",")
       const name = basename(_path).replace(extname(_path), "");
       const baseURL = ENVS[target];
 
@@ -79,7 +84,7 @@ async function run() {
         data = schema.cast(data);
       }
 
-      return { name, data };
+      return { name, data, keyFields };
     },
   );
 
@@ -93,10 +98,13 @@ async function run() {
     const { pipeline, collection, name } = require(resolve(_path));
     console.log(`Adding View ${name}`);
     await meDb
-      .command({ create: name, viewOn: collection, pipeline })
-      .catch((e) =>
-        console.error(`Failed to create view ${name} due to ${e.message}`),
-      );
+      .command({ collMod: name, viewOn: collection, pipeline })
+      .catch(async(e) => {
+        console.error(`Failed to update view ${name} due to ${e.message}`)
+        await meDb
+          .command({ create: name, viewOn: collection, pipeline })
+          .catch((e) => console.error(`Failed to create view ${name} due to ${e.message}`))
+      });
   });
   console.log("Created Views");
 
