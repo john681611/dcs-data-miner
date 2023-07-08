@@ -26,7 +26,7 @@ const basePipeline = [
       'category': 1,
       'module': 1,
       'paintSchemes': 1,
-      'operators': 1,
+      'operators': "$operators.operators",
       'shape': 1
     }
   }

@@ -25,7 +25,7 @@ const basePipeline = [
       'displayName': 1,
       'categories': 1,
       'module': 1,
-      'operators': 1,
+      'operators': "$operators.operators",
       'shape': 1,
       'numParking': 1,
     }

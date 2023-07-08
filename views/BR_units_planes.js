@@ -57,7 +57,7 @@ const basePipeline = [
       'panelRadio': 1,
       'radio': 1,
       'ammoType': 1,
-      'operators': 1,
+      'operators': "$operators.operators",
       'inheriteCommonCallnames': 1,
       'specificCallnames': 1,
       'maxAlt': 1,
