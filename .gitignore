@@ -4,3 +4,4 @@ dist
 *.miz
 !blankMissions/*.miz
 *.json
+!customDataSets/*.json
