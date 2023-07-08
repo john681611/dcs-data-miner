@@ -12,19 +12,20 @@ const basePipeline = [
     }
   }, {
     '$lookup': {
-      'from': 'BR_units_by_country',
+      'from': 'UnitOperators',
       'localField': 'type',
-      'foreignField': 'Units.Name',
-      'as': 'Countries'
+      'foreignField': 'type',
+      'as': 'operators'
     }
+  }, {
+    '$unwind': '$operators'
   }, {
     '$project': {
       'type': 1,
       'displayName': 1,
       'categories': 1,
       'module': 1,
-      'countries': '$Countries.Name',
-      'countriesWorldID': '$Countries.WorldID',
+      'operators': 1,
       'shape': 1,
       'numParking': 1,
     }

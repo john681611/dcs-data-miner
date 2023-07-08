@@ -31,11 +31,13 @@ const basePipeline = [
     }
   }, {
     '$lookup': {
-      'from': 'BR_units_by_country',
+      'from': 'UnitOperators',
       'localField': 'type',
-      'foreignField': 'Units.Name',
-      'as': 'Countries'
+      'foreignField': 'type',
+      'as': 'operators'
     }
+  }, {
+    '$unwind': '$operators'
   }, {
     '$project': {
       'type': 1,
@@ -56,8 +58,7 @@ const basePipeline = [
       'panelRadio': 1,
       'radio': 1,
       'ammoType': 1,
-      'countries': '$Countries.Name',
-      'countriesWorldID': '$Countries.WorldID',
+      'operators': 1,
       'maxAlt': 1,
       'cruiseSpeed': 1,
       'shape': 1,

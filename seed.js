@@ -1,7 +1,5 @@
 const Aigle = require("aigle");
 const { MongoClient } = require("mongodb");
-const { get, filter } = require("lodash");
-const hash = require("object-hash");
 const { glob } = require("glob");
 const { basename, extname } = require("path");
 const axios = require("axios");
@@ -41,7 +39,7 @@ const populateCollection = (dcsVersion) => async ({ name, data, keyFields }) => 
       console.warn(e.message);
     }
   });
-  console.log(`Upsert Result - Name: ${name}, Total: ${data.length}, Mod: ${modifiedCount}, Upserted: ${upsertedCount}`)
+  if(data) console.log(`Upsert Result - Name: ${name}, Total: ${data.length}, Mod: ${modifiedCount}, Upserted: ${upsertedCount}`)
 };
 
 async function run() {
@@ -90,8 +88,13 @@ async function run() {
 
   console.log("Populating Mission Editor DB");
   await Aigle.eachSeries(collections, populateCollection(dcsVersion));
-
   console.log("Populated Mission Editor DB");
+
+  console.log("Populating Custom File Tables");
+  await Aigle.eachSeries([{
+    name: "UnitOperators", data: require("./customDataSets/UnitOperators.json"), keyFields: ['type']
+  }], populateCollection("N/A"));
+  console.log("Populated Custom File Tables");
 
   console.log("Creating Views");
   await Aigle.eachSeries(await glob(VIEWS), async (_path) => {
