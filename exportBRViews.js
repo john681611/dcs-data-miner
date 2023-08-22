@@ -48,7 +48,7 @@ async function run() {
             modMap[x.module].push(x)
         })
         for (const [mod_key, mod_value] of Object.entries(modMap)) {
-            var filePath = `./exports/${mod_key}/${value}.json`
+            var filePath = `./exports/Mods/${mod_key}/${value}.json`
             var dirPath = path.dirname(filePath);
             fs.mkdirSync(dirPath, { recursive: true })
             fs.writeFileSync(filePath, JSON.stringify(mod_value, null, 4))
