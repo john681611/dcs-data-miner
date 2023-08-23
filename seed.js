@@ -91,9 +91,10 @@ async function run() {
   console.log("Populated Mission Editor DB");
 
   console.log("Populating Custom File Tables");
-  await Aigle.eachSeries([{
-    name: "UnitOperators", data: require("./customDataSets/UnitOperators.json"), keyFields: ['type']
-  }], populateCollection("N/A"));
+  await Aigle.eachSeries([
+    { name: "UnitOperators", data: require("./customDataSets/UnitOperators.json"), keyFields: ['type']},
+    { name: "UnitOperators", data: require("./customDataSets/UnitOperatorsMods.json"), keyFields: ['type']}
+  ], populateCollection("N/A"));
   console.log("Populated Custom File Tables");
 
   console.log("Creating Views");
