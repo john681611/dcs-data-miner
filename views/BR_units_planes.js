@@ -26,7 +26,7 @@ const basePipeline = [
       'height': 1,
       'length': 1,
       'width': '$wing_span',
-      'callsigns': 1
+      'callsigns': 1,
     }
   }, {
     '$lookup': {
@@ -36,7 +36,10 @@ const basePipeline = [
       'as': 'operators'
     }
   }, {
-    '$unwind': '$operators'
+    '$unwind': {
+      'path': '$operators',
+    'preserveNullAndEmptyArrays': true
+    }
   }, {
     '$project': {
       'type': 1,
@@ -57,7 +60,7 @@ const basePipeline = [
       'panelRadio': 1,
       'radio': 1,
       'ammoType': 1,
-      'operators': "$operators.operators",
+      'operators':  { '$ifNull': [ "$operators.operators", {}]},
       'inheriteCommonCallnames': 1,
       'specificCallnames': 1,
       'maxAlt': 1,

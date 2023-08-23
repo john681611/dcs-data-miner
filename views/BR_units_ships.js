@@ -18,14 +18,17 @@ const basePipeline = [
       'as': 'operators'
     }
   }, {
-    '$unwind': '$operators'
+    '$unwind': {
+      'path': '$operators',
+     'preserveNullAndEmptyArrays': true
+    }
   }, {
     '$project': {
       'type': 1,
       'displayName': 1,
       'categories': 1,
       'module': 1,
-      'operators': "$operators.operators",
+      'operators':  { '$ifNull': [ "$operators.operators", {}]},
       'shape': 1,
       'numParking': 1,
     }

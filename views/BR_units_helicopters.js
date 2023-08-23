@@ -37,7 +37,10 @@ const basePipeline = [
       'as': 'operators'
     }
   }, {
-    '$unwind': '$operators'
+    '$unwind': {
+      'path': '$operators',
+      'preserveNullAndEmptyArrays': true
+    },
   }, {
     '$project': {
       'type': 1,
@@ -58,7 +61,7 @@ const basePipeline = [
       'panelRadio': 1,
       'radio': 1,
       'ammoType': 1,
-      'operators': "$operators.operators",
+      'operators':  { '$ifNull': [ "$operators.operators", {}]},
       'maxAlt': 1,
       'cruiseSpeed': 1,
       'shape': 1,
