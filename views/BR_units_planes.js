@@ -1,13 +1,6 @@
-const pipeline = [
+const { pipelineVanillaOnlyFilter } = require('../viewsUtils')
+const basePipeline = [
   {
-    '$match': {
-      '_file': {
-        '$not': {
-          '$regex': new RegExp('^C:')
-        }
-      }
-    }
-  },{
     '$project': {
       'type': 1,
       'displayName': '$DisplayName',
@@ -27,21 +20,25 @@ const pipeline = [
         'modulation': '$HumanRadio.modulation',
       },
       'ammoType': '$ammo_type_default',
-      'inheriteCommonCallnames': '$InheriteCommonCallnames',
-      'specificCallnames': '$SpecificCallnames',
       'maxAlt': '$H_max',
       'cruiseSpeed': '$V_opt',
       'shape': '$Shape',
       'height': 1,
       'length': 1,
-      'width': '$wing_span'
+      'width': '$wing_span',
+      'callsigns': 1,
     }
   }, {
     '$lookup': {
-      'from': 'BR_units_by_country',
+      'from': 'UnitOperators',
       'localField': 'type',
-      'foreignField': 'Units.Name',
-      'as': 'Countries'
+      'foreignField': 'type',
+      'as': 'operators'
+    }
+  }, {
+    '$unwind': {
+      'path': '$operators',
+    'preserveNullAndEmptyArrays': true
     }
   }, {
     '$project': {
@@ -63,8 +60,7 @@ const pipeline = [
       'panelRadio': 1,
       'radio': 1,
       'ammoType': 1,
-      'countries': '$Countries.Name',
-      'countriesWorldID': '$Countries.WorldID',
+      'operators':  { '$ifNull': [ "$operators.operators", {}]},
       'inheriteCommonCallnames': 1,
       'specificCallnames': 1,
       'maxAlt': 1,
@@ -72,12 +68,19 @@ const pipeline = [
       'shape': 1,
       'height': 1,
       'length': 1,
-      'width': 1
+      'width': 1,
+      'callsigns': 1
     }
   }
 ]
 
+const pipeline = [
+  pipelineVanillaOnlyFilter,
+  ...basePipeline
+]
+
 module.exports = {
+  basePipeline,
   pipeline,
   collection: 'Planes',
   name: 'BR_units_planes',

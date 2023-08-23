@@ -1,0 +1,2009 @@
+[
+    {
+        "type": "S-300PS SA-10B 40B6M MAST tr",
+        "operational": [
+            1980,
+            2020
+        ],
+        "operators": {
+            "Algeria": [
+                1980,
+                2020
+            ],
+            "Belarus": [
+                1980,
+                2020
+            ],
+            "Bulgaria": [
+                1980,
+                2020
+            ],
+            "China": [
+                1980,
+                2020
+            ],
+            "Egypt": [
+                1980,
+                2020
+            ],
+            "GDR": [
+                1980,
+                2020
+            ],
+            "Greece": [
+                1980,
+                2020
+            ],
+            "Iran": [
+                1980,
+                2020
+            ],
+            "Kazakhstan": [
+                1980,
+                2020
+            ],
+            "Russia": [
+                1980,
+                2020
+            ],
+            "Slovakia": [
+                1980,
+                2020
+            ],
+            "Ukraine": [
+                1980,
+                2020
+            ],
+            "Venezuela": [
+                1980,
+                2020
+            ],
+            "Vietnam": [
+                1980,
+                2020
+            ],
+            "USSR": [
+                1980,
+                2020
+            ]
+        }
+    },
+    {
+        "type": "5p73 V-601P ln",
+        "operational": [
+            1960,
+            2020
+        ],
+        "operators": {
+            "Russia": [
+                1970,
+                1990
+            ],
+            "Ukraine": [
+                1970,
+                2020
+            ],
+            "Georgia": [
+                1970,
+                2020
+            ],
+            "Belarus": [
+                1960,
+                2020
+            ],
+            "Bulgaria": [
+                1970,
+                2020
+            ],
+            "CzechRepublic": [
+                1990,
+                2000
+            ],
+            "Egypt": [
+                1970,
+                2020
+            ],
+            "Finland": [
+                1980,
+                1990
+            ],
+            "Hungary": [
+                1970,
+                1990
+            ],
+            "India": [
+                1970,
+                2020
+            ],
+            "Iraq": [
+                1970,
+                2000
+            ],
+            "Kazakhstan": [
+                1970,
+                2020
+            ],
+            "NorthKorea": [
+                1980,
+                2020
+            ],
+            "Poland": [
+                1970,
+                2020
+            ],
+            "Romania": [
+                1970,
+                2000
+            ],
+            "Serbia": [
+                2000,
+                2020
+            ],
+            "Slovakia": [
+                1990,
+                2000
+            ],
+            "Syria": [
+                1970,
+                2020
+            ],
+            "Yemen": [
+                1980,
+                2020
+            ],
+            "Vietnam": [
+                1970,
+                2020
+            ],
+            "Venezuela": [
+                2010,
+                2020
+            ],
+            "Libya": [
+                1970,
+                2020
+            ],
+            "Ethiopia": [
+                1970,
+                2020
+            ],
+            "Yugoslavia": [
+                1970,
+                2020
+            ],
+            "USSR": [
+                1960,
+                2020
+            ],
+            "Algeria": [
+                1980,
+                2020
+            ],
+            "Cuba": [
+                1970,
+                2020
+            ],
+            "GDR": [
+                1970,
+                1990
+            ],
+            "UnitedNationsPeacekeepers": [
+                1960,
+                2020
+            ],
+            "Peru": [
+                1960,
+                2020
+            ]
+        }
+    },
+    {
+        "type": "34Ya6E Gazetchik E decoy",
+        "operational": [
+            1970,
+            2020
+        ],
+        "operators": {
+            "Russia": [
+                1970,
+                2020
+            ]
+        }
+    },
+    {
+        "type": "MAMPilot",
+        "operational": [
+            1960,
+            2020
+        ],
+        "operators": {
+            "USA": [
+                1960,
+                2020
+            ]
+        }
+    },
+    {
+        "type": "A400M_Atlas",
+        "operational": [
+            2010,
+            2020
+        ],
+        "operators": {
+            "Germany": [
+                2010,
+                2020
+            ],
+            "UK": [
+                2010,
+                2020
+            ],
+            "Belgium": [
+                2020,
+                2020
+            ],
+            "Turkey": [
+                2010,
+                2020
+            ]
+        }
+    },
+    {
+        "type": "B2_Spirit",
+        "operational": [
+            1990,
+            2020
+        ],
+        "operators": {
+            "USA": [
+                1990,
+                2020
+            ]
+        }
+    },
+    {
+        "type": "C2A_Greyhound",
+        "operational": [
+            1960,
+            2020
+        ],
+        "operators": {
+            "USA": [
+                1960,
+                2020
+            ]
+        }
+    },
+    {
+        "type": "C5_Galaxy",
+        "operational": [
+            1970,
+            2020
+        ],
+        "operators": {
+            "USA": [
+                1970,
+                2020
+            ]
+        }
+    },
+    {
+        "type": "KC_10_Extender",
+        "operational": [
+            1980,
+            2020
+        ],
+        "operators": {
+            "USA": [
+                1980,
+                2020
+            ],
+            "TheNetherlands": [
+                1980,
+                2020
+            ]
+        }
+    },
+    {
+        "type": "KC_10_Extender_D",
+        "operational": [
+            1980,
+            2020
+        ],
+        "operators": {
+            "USA": [
+                1980,
+                2020
+            ],
+            "TheNetherlands": [
+                1980,
+                2020
+            ]
+        }
+    },
+    {
+        "type": "P3C_Orion",
+        "operational": [
+            1960,
+            2020
+        ],
+        "operators": {
+            "Argentina": [
+                1960,
+                2020
+            ],
+            "Australia": [
+                1960,
+                2020
+            ],
+            "Brazil": [
+                1960,
+                2020
+            ],
+            "Chile": [
+                1960,
+                2020
+            ],
+            "Canada": [
+                1960,
+                2020
+            ],
+            "Germany": [
+                1960,
+                2020
+            ],
+            "Greece": [
+                1960,
+                2020
+            ],
+            "Iran": [
+                1960,
+                2020
+            ],
+            "Japan": [
+                1960,
+                2020
+            ],
+            "Pakistan": [
+                1960,
+                2020
+            ],
+            "Portugal": [
+                1960,
+                2020
+            ],
+            "SouthKorea": [
+                1960,
+                2020
+            ],
+            "USA": [
+                1960,
+                2020
+            ],
+            "Norway": [
+                1960,
+                2020
+            ],
+            "Spain": [
+                1960,
+                2020
+            ],
+            "Thailand": [
+                1960,
+                2010
+            ]
+        }
+    },
+    {
+        "type": "V22_Osprey",
+        "operational": [
+            2000,
+            2020
+        ],
+        "operators": {
+            "USA": [
+                2000,
+                2020
+            ],
+            "Japan": [
+                2000,
+                2020
+            ]
+        }
+    },
+    {
+        "type": "VSN_F4B",
+        "operational": [
+            1960,
+            2010
+        ],
+        "operators": {
+            "USA": [
+                1970,
+                2010
+            ],
+            "Turkey": [
+                1970,
+                2020
+            ],
+            "Germany": [
+                1970,
+                1990
+            ],
+            "USAFAggressors": [
+                1970,
+                2010
+            ],
+            "Spain": [
+                1970,
+                2000
+            ],
+            "Israel": [
+                1970,
+                2000
+            ],
+            "Australia": [
+                1970,
+                1980
+            ],
+            "Egypt": [
+                1970,
+                2020
+            ],
+            "Greece": [
+                1960,
+                2020
+            ],
+            "Iran": [
+                1970,
+                2020
+            ],
+            "SouthKorea": [
+                1970,
+                2020
+            ],
+            "UnitedNationsPeacekeepers": [
+                1960,
+                2010
+            ],
+            "Japan": [
+                1970,
+                2020
+            ],
+            "UK": [
+                1970,
+                1990
+            ]
+        }
+    },
+    {
+        "type": "VSN_F4C",
+        "operational": [
+            1960,
+            2010
+        ],
+        "operators": {
+            "USA": [
+                1970,
+                2010
+            ],
+            "Turkey": [
+                1970,
+                2020
+            ],
+            "Germany": [
+                1970,
+                1990
+            ],
+            "USAFAggressors": [
+                1970,
+                2010
+            ],
+            "Spain": [
+                1970,
+                2000
+            ],
+            "Israel": [
+                1970,
+                2000
+            ],
+            "Australia": [
+                1970,
+                1980
+            ],
+            "Egypt": [
+                1970,
+                2020
+            ],
+            "Greece": [
+                1960,
+                2020
+            ],
+            "Iran": [
+                1970,
+                2020
+            ],
+            "SouthKorea": [
+                1970,
+                2020
+            ],
+            "UnitedNationsPeacekeepers": [
+                1960,
+                2010
+            ],
+            "Japan": [
+                1970,
+                2020
+            ],
+            "UK": [
+                1970,
+                1990
+            ]
+        }
+    },
+    {
+        "type": "Su-30SM",
+        "operational": [
+            1990,
+            2020
+        ],
+        "operators": {
+            "Russia": [
+                1990,
+                2020
+            ],
+            "Belarus": [
+                2020,
+                2020
+            ],
+            "China": [
+                2000,
+                2020
+            ],
+            "India": [
+                2000,
+                2020
+            ],
+            "Kazakhstan": [
+                2010,
+                2020
+            ],
+            "Vietnam": [
+                2000,
+                2020
+            ],
+            "Venezuela": [
+                2000,
+                2020
+            ],
+            "Malaysia": [
+                2000,
+                2020
+            ],
+            "Indonesia": [
+                2000,
+                2020
+            ],
+            "Algeria": [
+                2000,
+                2020
+            ],
+            "UnitedNationsPeacekeepers": [
+                1990,
+                2020
+            ],
+            "USSR": [
+                1990,
+                2020
+            ]
+        }
+    },
+    {
+        "type": "Su-30MKA",
+        "operational": [
+            1990,
+            2020
+        ],
+        "operators": {
+            "Russia": [
+                1990,
+                2020
+            ],
+            "Belarus": [
+                2020,
+                2020
+            ],
+            "China": [
+                2000,
+                2020
+            ],
+            "India": [
+                2000,
+                2020
+            ],
+            "Kazakhstan": [
+                2010,
+                2020
+            ],
+            "Vietnam": [
+                2000,
+                2020
+            ],
+            "Venezuela": [
+                2000,
+                2020
+            ],
+            "Malaysia": [
+                2000,
+                2020
+            ],
+            "Indonesia": [
+                2000,
+                2020
+            ],
+            "Algeria": [
+                2000,
+                2020
+            ],
+            "UnitedNationsPeacekeepers": [
+                1990,
+                2020
+            ],
+            "USSR": [
+                1990,
+                2020
+            ]
+        }
+    },
+    {
+        "type": "Su-30MKM",
+        "operational": [
+            1990,
+            2020
+        ],
+        "operators": {
+            "Russia": [
+                1990,
+                2020
+            ],
+            "Belarus": [
+                2020,
+                2020
+            ],
+            "China": [
+                2000,
+                2020
+            ],
+            "India": [
+                2000,
+                2020
+            ],
+            "Kazakhstan": [
+                2010,
+                2020
+            ],
+            "Vietnam": [
+                2000,
+                2020
+            ],
+            "Venezuela": [
+                2000,
+                2020
+            ],
+            "Malaysia": [
+                2000,
+                2020
+            ],
+            "Indonesia": [
+                2000,
+                2020
+            ],
+            "Algeria": [
+                2000,
+                2020
+            ],
+            "UnitedNationsPeacekeepers": [
+                1990,
+                2020
+            ],
+            "USSR": [
+                1990,
+                2020
+            ]
+        }
+    },
+    {
+        "type": "Su-30MKM-AG",
+        "operational": [
+            1990,
+            2020
+        ],
+        "operators": {
+            "Russia": [
+                1990,
+                2020
+            ],
+            "Belarus": [
+                2020,
+                2020
+            ],
+            "China": [
+                2000,
+                2020
+            ],
+            "India": [
+                2000,
+                2020
+            ],
+            "Kazakhstan": [
+                2010,
+                2020
+            ],
+            "Vietnam": [
+                2000,
+                2020
+            ],
+            "Venezuela": [
+                2000,
+                2020
+            ],
+            "Malaysia": [
+                2000,
+                2020
+            ],
+            "Indonesia": [
+                2000,
+                2020
+            ],
+            "Algeria": [
+                2000,
+                2020
+            ],
+            "UnitedNationsPeacekeepers": [
+                1990,
+                2020
+            ],
+            "USSR": [
+                1990,
+                2020
+            ]
+        }
+    },
+    {
+        "type": "Su-30MKI",
+        "operational": [
+            1990,
+            2020
+        ],
+        "operators": {
+            "Russia": [
+                1990,
+                2020
+            ],
+            "Belarus": [
+                2020,
+                2020
+            ],
+            "China": [
+                2000,
+                2020
+            ],
+            "India": [
+                2000,
+                2020
+            ],
+            "Kazakhstan": [
+                2010,
+                2020
+            ],
+            "Vietnam": [
+                2000,
+                2020
+            ],
+            "Venezuela": [
+                2000,
+                2020
+            ],
+            "Malaysia": [
+                2000,
+                2020
+            ],
+            "Indonesia": [
+                2000,
+                2020
+            ],
+            "Algeria": [
+                2000,
+                2020
+            ],
+            "UnitedNationsPeacekeepers": [
+                1990,
+                2020
+            ],
+            "USSR": [
+                1990,
+                2020
+            ]
+        }
+    },
+    {
+        "type": "Su-30MKA-AG",
+        "operational": [
+            1990,
+            2020
+        ],
+        "operators": {
+            "Russia": [
+                1990,
+                2020
+            ],
+            "Belarus": [
+                2020,
+                2020
+            ],
+            "China": [
+                2000,
+                2020
+            ],
+            "India": [
+                2000,
+                2020
+            ],
+            "Kazakhstan": [
+                2010,
+                2020
+            ],
+            "Vietnam": [
+                2000,
+                2020
+            ],
+            "Venezuela": [
+                2000,
+                2020
+            ],
+            "Malaysia": [
+                2000,
+                2020
+            ],
+            "Indonesia": [
+                2000,
+                2020
+            ],
+            "Algeria": [
+                2000,
+                2020
+            ],
+            "UnitedNationsPeacekeepers": [
+                1990,
+                2020
+            ],
+            "USSR": [
+                1990,
+                2020
+            ]
+        }
+    },
+    {
+        "type": "Su-30SM-AG",
+        "operational": [
+            1990,
+            2020
+        ],
+        "operators": {
+            "Russia": [
+                1990,
+                2020
+            ],
+            "Belarus": [
+                2020,
+                2020
+            ],
+            "China": [
+                2000,
+                2020
+            ],
+            "India": [
+                2000,
+                2020
+            ],
+            "Kazakhstan": [
+                2010,
+                2020
+            ],
+            "Vietnam": [
+                2000,
+                2020
+            ],
+            "Venezuela": [
+                2000,
+                2020
+            ],
+            "Malaysia": [
+                2000,
+                2020
+            ],
+            "Indonesia": [
+                2000,
+                2020
+            ],
+            "Algeria": [
+                2000,
+                2020
+            ],
+            "UnitedNationsPeacekeepers": [
+                1990,
+                2020
+            ],
+            "USSR": [
+                1990,
+                2020
+            ]
+        }
+    },
+    {
+        "type": "Su-30MKI-AG",
+        "operational": [
+            1990,
+            2020
+        ],
+        "operators": {
+            "Russia": [
+                1990,
+                2020
+            ],
+            "Belarus": [
+                2020,
+                2020
+            ],
+            "China": [
+                2000,
+                2020
+            ],
+            "India": [
+                2000,
+                2020
+            ],
+            "Kazakhstan": [
+                2010,
+                2020
+            ],
+            "Vietnam": [
+                2000,
+                2020
+            ],
+            "Venezuela": [
+                2000,
+                2020
+            ],
+            "Malaysia": [
+                2000,
+                2020
+            ],
+            "Indonesia": [
+                2000,
+                2020
+            ],
+            "Algeria": [
+                2000,
+                2020
+            ],
+            "UnitedNationsPeacekeepers": [
+                1990,
+                2020
+            ],
+            "USSR": [
+                1990,
+                2020
+            ]
+        }
+    },
+    {
+        "type": "VSN_A6A",
+        "operational": [
+            1960,
+            1990
+        ],
+        "operators": {
+            "USA": [
+                1960,
+                1990
+            ]
+        }
+    },
+    {
+        "type": "VSN_E2D",
+        "operational": [
+            1960,
+            2020
+        ],
+        "operators": {
+            "USA": [
+                1960,
+                2020
+            ],
+            "Egypt": [
+                1960,
+                2020
+            ],
+            "France": [
+                1960,
+                2020
+            ],
+            "Japan": [
+                1960,
+                2020
+            ],
+            "Israel": [
+                1960,
+                2020
+            ]
+        }
+    },
+    {
+        "type": "VSN_Eurofighter",
+        "operational": [
+            2000,
+            2020
+        ],
+        "operators": {
+            "Austria": [
+                2000,
+                2020
+            ],
+            "Germany": [
+                2000,
+                2020
+            ],
+            "Italy": [
+                2000,
+                2020
+            ],
+            "Kuwait": [
+                2000,
+                2020
+            ],
+            "Oman": [
+                2000,
+                2020
+            ],
+            "SaudiArabia": [
+                2000,
+                2020
+            ],
+            "Span": [
+                2000,
+                2020
+            ],
+            "UK": [
+                2000,
+                2020
+            ],
+            "Qatar": [
+                2000,
+                2020
+            ]
+        }
+    },
+    {
+        "type": "VSN_Eurofighter_AG",
+        "operational": [
+            2000,
+            2020
+        ],
+        "operators": {
+            "Austria": [
+                2000,
+                2020
+            ],
+            "Germany": [
+                2000,
+                2020
+            ],
+            "Italy": [
+                2000,
+                2020
+            ],
+            "Kuwait": [
+                2000,
+                2020
+            ],
+            "Oman": [
+                2000,
+                2020
+            ],
+            "SaudiArabia": [
+                2000,
+                2020
+            ],
+            "Span": [
+                2000,
+                2020
+            ],
+            "UK": [
+                2000,
+                2020
+            ],
+            "Qatar": [
+                2000,
+                2020
+            ]
+        }
+    },
+    {
+        "type": "VSN_F100",
+        "operational": [
+            1950,
+            1970
+        ],
+        "operators": {
+            "USA": [
+                1950,
+                1970
+            ],
+            "Denmark": [
+                1950,
+                1970
+            ],
+            "France": [
+                1950,
+                1970
+            ],
+            "Turkey": [
+                1950,
+                1970
+            ]
+        }
+    },
+    {
+        "type": "VSN_F104C",
+        "operational": [
+            1950,
+            1970
+        ],
+        "operators": {
+            "Belgium": [
+                1950,
+                1970
+            ],
+            "Canada": [
+                1950,
+                1970
+            ],
+            "Denmark": [
+                1950,
+                1970
+            ],
+            "Germany": [
+                1950,
+                1970
+            ],
+            "Greece": [
+                1950,
+                1970
+            ],
+            "Italy": [
+                1950,
+                1970
+            ],
+            "Japan": [
+                1950,
+                1970
+            ],
+            "Jordan": [
+                1950,
+                1970
+            ],
+            "TheNetherlands": [
+                1950,
+                1970
+            ],
+            "Norway": [
+                1950,
+                1970
+            ],
+            "Pakistan": [
+                1950,
+                1970
+            ],
+            "Spain": [
+                1950,
+                1970
+            ],
+            "Turkey": [
+                1950,
+                1970
+            ],
+            "USA": [
+                1950,
+                1970
+            ]
+        }
+    },
+    {
+        "type": "VSN_F104G",
+        "operational": [
+            1950,
+            1970
+        ],
+        "operators": {
+            "Belgium": [
+                1950,
+                1970
+            ],
+            "Canada": [
+                1950,
+                1970
+            ],
+            "Denmark": [
+                1950,
+                1970
+            ],
+            "Germany": [
+                1950,
+                1970
+            ],
+            "Greece": [
+                1950,
+                1970
+            ],
+            "Italy": [
+                1950,
+                1970
+            ],
+            "Japan": [
+                1950,
+                1970
+            ],
+            "Jordan": [
+                1950,
+                1970
+            ],
+            "TheNetherlands": [
+                1950,
+                1970
+            ],
+            "Norway": [
+                1950,
+                1970
+            ],
+            "Pakistan": [
+                1950,
+                1970
+            ],
+            "Spain": [
+                1950,
+                1970
+            ],
+            "Turkey": [
+                1950,
+                1970
+            ],
+            "USA": [
+                1950,
+                1970
+            ]
+        }
+    },
+    {
+        "type": "VSN_F104S",
+        "operational": [
+            1950,
+            1970
+        ],
+        "operators": {
+            "Belgium": [
+                1950,
+                1970
+            ],
+            "Canada": [
+                1950,
+                1970
+            ],
+            "Denmark": [
+                1950,
+                1970
+            ],
+            "Germany": [
+                1950,
+                1970
+            ],
+            "Greece": [
+                1950,
+                1970
+            ],
+            "Italy": [
+                1950,
+                1970
+            ],
+            "Japan": [
+                1950,
+                1970
+            ],
+            "Jordan": [
+                1950,
+                1970
+            ],
+            "TheNetherlands": [
+                1950,
+                1970
+            ],
+            "Norway": [
+                1950,
+                1970
+            ],
+            "Pakistan": [
+                1950,
+                1970
+            ],
+            "Spain": [
+                1950,
+                1970
+            ],
+            "Turkey": [
+                1950,
+                1970
+            ],
+            "USA": [
+                1950,
+                1970
+            ]
+        }
+    },
+    {
+        "type": "VSN_F104S_AG",
+        "operational": [
+            1950,
+            1970
+        ],
+        "operators": {
+            "Belgium": [
+                1950,
+                1970
+            ],
+            "Canada": [
+                1950,
+                1970
+            ],
+            "Denmark": [
+                1950,
+                1970
+            ],
+            "Germany": [
+                1950,
+                1970
+            ],
+            "Greece": [
+                1950,
+                1970
+            ],
+            "Italy": [
+                1950,
+                1970
+            ],
+            "Japan": [
+                1950,
+                1970
+            ],
+            "Jordan": [
+                1950,
+                1970
+            ],
+            "TheNetherlands": [
+                1950,
+                1970
+            ],
+            "Norway": [
+                1950,
+                1970
+            ],
+            "Pakistan": [
+                1950,
+                1970
+            ],
+            "Spain": [
+                1950,
+                1970
+            ],
+            "Turkey": [
+                1950,
+                1970
+            ],
+            "USA": [
+                1950,
+                1970
+            ]
+        }
+    },
+    {
+        "type": "VSN_NF104A",
+        "operational": [
+            1950,
+            1970
+        ],
+        "operators": {
+            "Belgium": [
+                1950,
+                1970
+            ],
+            "Canada": [
+                1950,
+                1970
+            ],
+            "Denmark": [
+                1950,
+                1970
+            ],
+            "Germany": [
+                1950,
+                1970
+            ],
+            "Greece": [
+                1950,
+                1970
+            ],
+            "Italy": [
+                1950,
+                1970
+            ],
+            "Japan": [
+                1950,
+                1970
+            ],
+            "Jordan": [
+                1950,
+                1970
+            ],
+            "TheNetherlands": [
+                1950,
+                1970
+            ],
+            "Norway": [
+                1950,
+                1970
+            ],
+            "Pakistan": [
+                1950,
+                1970
+            ],
+            "Spain": [
+                1950,
+                1970
+            ],
+            "Turkey": [
+                1950,
+                1970
+            ],
+            "USA": [
+                1950,
+                1970
+            ]
+        }
+    },
+    {
+        "type": "VSN_F105G",
+        "operational": [
+            1950,
+            1980
+        ],
+        "operators": {
+            "USA": [
+                1950,
+                1980
+            ]
+        }
+    },
+    {
+        "type": "VSN_F105D",
+        "operational": [
+            1950,
+            1980
+        ],
+        "operators": {
+            "USA": [
+                1950,
+                1980
+            ]
+        }
+    },
+    {
+        "type": "VSN_F35A",
+        "operational": [
+            2010,
+            2020
+        ],
+        "operators": {
+            "USA": [
+                2010,
+                2020
+            ],
+            "Australia": [
+                2010,
+                2020
+            ],
+            "Belgium": [
+                2010,
+                2020
+            ],
+            "Canada": [
+                2010,
+                2020
+            ],
+            "Denmark": [
+                2010,
+                2020
+            ],
+            "Finland": [
+                2010,
+                2020
+            ],
+            "Germany": [
+                2010,
+                2020
+            ],
+            "Israel": [
+                2010,
+                2020
+            ],
+            "Italy": [
+                2010,
+                2020
+            ],
+            "Japan": [
+                2010,
+                2020
+            ],
+            "TheNetherlands": [
+                2010,
+                2020
+            ],
+            "Norway": [
+                2010,
+                2020
+            ],
+            "Poland": [
+                2010,
+                2020
+            ],
+            "SouthKorea": [
+                2010,
+                2020
+            ]
+        }
+    },
+    {
+        "type": "VSN_F35A_AG",
+        "operational": [
+            2010,
+            2020
+        ],
+        "operators": {
+            "USA": [
+                2010,
+                2020
+            ],
+            "Australia": [
+                2010,
+                2020
+            ],
+            "Belgium": [
+                2010,
+                2020
+            ],
+            "Canada": [
+                2010,
+                2020
+            ],
+            "Denmark": [
+                2010,
+                2020
+            ],
+            "Finland": [
+                2010,
+                2020
+            ],
+            "Germany": [
+                2010,
+                2020
+            ],
+            "Israel": [
+                2010,
+                2020
+            ],
+            "Italy": [
+                2010,
+                2020
+            ],
+            "Japan": [
+                2010,
+                2020
+            ],
+            "TheNetherlands": [
+                2010,
+                2020
+            ],
+            "Norway": [
+                2010,
+                2020
+            ],
+            "Poland": [
+                2010,
+                2020
+            ],
+            "SouthKorea": [
+                2010,
+                2020
+            ]
+        }
+    },
+    {
+        "type": "VSN_F35B",
+        "operational": [
+            2010,
+            2020
+        ],
+        "operators": {
+            "USA": [
+                2010,
+                2020
+            ],
+            "UK": [
+                2010,
+                2020
+            ]
+        }
+    },
+    {
+        "type": "VSN_F35B_AG",
+        "operational": [
+            2010,
+            2020
+        ],
+        "operators": {
+            "USA": [
+                2010,
+                2020
+            ],
+            "UK": [
+                2010,
+                2020
+            ]
+        }
+    },
+    {
+        "type": "VSN_F35C",
+        "operational": [
+            2010,
+            2020
+        ],
+        "operators": {
+            "USA": [
+                2010,
+                2020
+            ]
+        }
+    },
+    {
+        "type": "VSN_F35C_AG",
+        "operational": [
+            2010,
+            2020
+        ],
+        "operators": {
+            "USA": [
+                2010,
+                2020
+            ]
+        }
+    },
+    {
+        "type": "VSN_F80C",
+        "operational": [
+            1940,
+            1970
+        ],
+        "operators": {
+            "USA": [
+                1940,
+                1950
+            ],
+            "Brazil": [
+                1950,
+                1970
+            ],
+            "Chile": [
+                1950,
+                1970
+            ],
+            "Peru": [
+                1950,
+                1970
+            ]
+        }
+    },
+    {
+        "type": "VSN_RF80A",
+        "operational": [
+            1940,
+            1970
+        ],
+        "operators": {
+            "USA": [
+                1940,
+                1950
+            ],
+            "Brazil": [
+                1950,
+                1970
+            ],
+            "Chile": [
+                1950,
+                1970
+            ],
+            "Peru": [
+                1950,
+                1970
+            ]
+        }
+    },
+    {
+        "type": "VSN_F84G",
+        "operational": [
+            1940,
+            1960
+        ],
+        "operators": {
+            "USA": [
+                1940,
+                1960
+            ],
+            "Belgium": [
+                1950,
+                1960
+            ],
+            "Denmark": [
+                1950,
+                1960
+            ],
+            "France": [
+                1950,
+                1960
+            ],
+            "Greece": [
+                1950,
+                1960
+            ],
+            "Iran": [
+                1950,
+                1960
+            ],
+            "TheNetherlands": [
+                1950,
+                1960
+            ],
+            "Norway": [
+                1950,
+                1960
+            ],
+            "Portugal": [
+                1950,
+                1960
+            ],
+            "Thailand": [
+                1950,
+                1960
+            ],
+            "Turkey": [
+                1950,
+                1960
+            ]
+        }
+    },
+    {
+        "type": "VSN_G91Y",
+        "operational": [
+            1960,
+            1990
+        ],
+        "operators": {
+            "Italy": [
+                1960,
+                1990
+            ]
+        }
+    },
+    {
+        "type": "VSN_YF12A",
+        "operational": [
+            1960,
+            1970
+        ],
+        "operators": {
+            "USA": [
+                1960,
+                1970
+            ]
+        }
+    },
+    {
+        "type": "VSN_TornadoGR4",
+        "operational": [
+            1970,
+            2020
+        ],
+        "operators": {
+            "UK": [
+                1970,
+                2020
+            ],
+            "UnitedNationsPeacekeepers": [
+                1970,
+                2020
+            ],
+            "Germany": [
+                1970,
+                2020
+            ],
+            "Italy": [
+                1970,
+                2020
+            ],
+            "SaudiArabia": [
+                1970,
+                2020
+            ]
+        }
+    },
+    {
+        "type": "VSN_TornadoIDS",
+        "operational": [
+            1970,
+            2020
+        ],
+        "operators": {
+            "Germany": [
+                1970,
+                2020
+            ],
+            "Italy": [
+                1970,
+                2020
+            ],
+            "SaudiArabia": [
+                1970,
+                2020
+            ],
+            "UnitedNationsPeacekeepers": [
+                1970,
+                2020
+            ],
+            "UK": [
+                1970,
+                2020
+            ]
+        }
+    },
+    {
+        "type": "VSN_MirageIIIC",
+        "operational": [
+            1960,
+            2020
+        ],
+        "operators": {
+            "Pakistan": [
+                1980,
+                2020
+            ],
+            "Australia": [
+                1980,
+                1990
+            ],
+            "Argentina": [
+                1980,
+                1990
+            ],
+            "France": [
+                1980,
+                1990
+            ],
+            "Brazil": [
+                1980,
+                1990
+            ],
+            "Israel": [
+                1980,
+                1990
+            ],
+            "Lebanon": [
+                1980,
+                1990
+            ],
+            "SouthAfrica": [
+                1980,
+                1990
+            ]
+        }
+    }
+    ,
+    {
+        "type": "VSN_MirageIIIC_AG",
+        "operational": [
+            1960,
+            2020
+        ],
+        "operators": {
+            "Pakistan": [
+                1980,
+                2020
+            ],
+            "Australia": [
+                1980,
+                1990
+            ],
+            "Argentina": [
+                1980,
+                1990
+            ],
+            "France": [
+                1980,
+                1990
+            ],
+            "Brazil": [
+                1980,
+                1990
+            ],
+            "Israel": [
+                1980,
+                1990
+            ],
+            "Lebanon": [
+                1980,
+                1990
+            ],
+            "SouthAfrica": [
+                1980,
+                1990
+            ]
+        }
+    },
+    {
+        "type": "VSN_MirageIIIS",
+        "operational": [
+            1960,
+            2020
+        ],
+        "operators": {
+            "Pakistan": [
+                1980,
+                2020
+            ],
+            "Australia": [
+                1980,
+                1990
+            ],
+            "Argentina": [
+                1980,
+                1990
+            ],
+            "France": [
+                1980,
+                1990
+            ],
+            "Brazil": [
+                1980,
+                1990
+            ],
+            "Israel": [
+                1980,
+                1990
+            ],
+            "Lebanon": [
+                1980,
+                1990
+            ],
+            "SouthAfrica": [
+                1980,
+                1990
+            ]
+        }
+    }
+]
