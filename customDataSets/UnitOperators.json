@@ -1,5 +1,180 @@
 [
+    
     {
+        "type": "S-300PS 40B6MD sr_19J6",
+        "operational": [
+            1970,
+            2020
+        ],
+        "operators": {
+            "Russia": [
+                1970,
+                2020
+            ],
+            "Ukraine": [
+                1970,
+                2020
+            ],
+            "Belarus": [
+                1970,
+                2020
+            ],
+            "Bulgaria": [
+                1980,
+                2020
+            ],
+            "China": [
+                1990,
+                2020
+            ],
+            "Egypt": [
+                2010,
+                2020
+            ],
+            "Greece": [
+                2000,
+                2020
+            ],
+            "Iran": [
+                2010,
+                2020
+            ],
+            "Kazakhstan": [
+                1970,
+                2020
+            ],
+            "Slovakia": [
+                1980,
+                2020
+            ],
+            "Syria": [
+                1970,
+                2020
+            ],
+            "Vietnam": [
+                2000,
+                2020
+            ],
+            "Venezuela": [
+                2010,
+                2020
+            ],
+            "USSR": [
+                1970,
+                2020
+            ],
+            "Algeria": [
+                2010,
+                2020
+            ],
+            "GDR": [
+                1970,
+                2020
+            ],
+            "UnitedNationsPeacekeepers": [
+                1970,
+                2020
+            ],
+            "Cyprus": [
+                1970,
+                2020
+            ]
+        }
+    },{
+        "type": "S-300PS 5H63C 30H6_tr",
+        "operational": [
+            1970,
+            2020
+        ],
+        "operators": {
+            "Russia": [
+                1970,
+                2020
+            ],
+            "Ukraine": [
+                1970,
+                2020
+            ],
+            "Belarus": [
+                1970,
+                2020
+            ],
+            "Bulgaria": [
+                1980,
+                2020
+            ],
+            "China": [
+                1990,
+                2020
+            ],
+            "Egypt": [
+                2010,
+                2020
+            ],
+            "Greece": [
+                2000,
+                2020
+            ],
+            "Iran": [
+                2010,
+                2020
+            ],
+            "Kazakhstan": [
+                1970,
+                2020
+            ],
+            "Slovakia": [
+                1980,
+                2020
+            ],
+            "Syria": [
+                1970,
+                2020
+            ],
+            "Vietnam": [
+                2000,
+                2020
+            ],
+            "Venezuela": [
+                2010,
+                2020
+            ],
+            "USSR": [
+                1970,
+                2020
+            ],
+            "Algeria": [
+                2010,
+                2020
+            ],
+            "GDR": [
+                1970,
+                2020
+            ],
+            "UnitedNationsPeacekeepers": [
+                1970,
+                2020
+            ],
+            "Cyprus": [
+                1970,
+                2020
+            ]
+        }
+    },{
+        "type": "HEMTT_C-RAM_Phalanx",
+        "operational": [
+            1980,
+            2020
+        ],
+        "operators": {
+            "USA": [
+                2000,
+                2020
+            ]
+        }
+        
+    }
+    ,{
         "type": "2B11 mortar",
         "operational": [
             1980,
@@ -24933,6 +25108,111 @@
     },
     {
         "type": "MiG-29A",
+        "operational": [
+            1980,
+            2020
+        ],
+        "operators": {
+            "Russia": [
+                1980,
+                2020
+            ],
+            "Ukraine": [
+                1980,
+                2020
+            ],
+            "Germany": [
+                1980,
+                2020
+            ],
+            "USAFAggressors": [
+                1980,
+                2020
+            ],
+            "Belarus": [
+                1990,
+                2000
+            ],
+            "Bulgaria": [
+                1990,
+                2020
+            ],
+            "CzechRepublic": [
+                1990,
+                2020
+            ],
+            "Hungary": [
+                1990,
+                2010
+            ],
+            "India": [
+                1980,
+                2020
+            ],
+            "Iran": [
+                1990,
+                2020
+            ],
+            "Iraq": [
+                1980,
+                2000
+            ],
+            "Kazakhstan": [
+                1980,
+                2020
+            ],
+            "NorthKorea": [
+                1990,
+                2020
+            ],
+            "Poland": [
+                1990,
+                2020
+            ],
+            "Romania": [
+                1990,
+                2000
+            ],
+            "Serbia": [
+                2010,
+                2020
+            ],
+            "Slovakia": [
+                1990,
+                2020
+            ],
+            "Syria": [
+                1980,
+                2020
+            ],
+            "Yugoslavia": [
+                1980,
+                2020
+            ],
+            "USSR": [
+                1980,
+                2020
+            ],
+            "Cuba": [
+                1990,
+                2020
+            ],
+            "GDR": [
+                1980,
+                2020
+            ],
+            "UnitedNationsPeacekeepers": [
+                1980,
+                2020
+            ],
+            "Sudan": [
+                2010,
+                2020
+            ]
+        }
+    },
+    {
+        "type": "MiG-29S",
         "operational": [
             1980,
             2020
