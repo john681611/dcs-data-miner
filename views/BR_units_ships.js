@@ -11,7 +11,7 @@ const basePipeline = [
       'numParking': 1,
       'detectionRange': '$DetectionRange',
       'threatRangeMin':'$ThreatRangeMin',
-      'ThreatRange':'$ThreatRange'
+      'threatRange':'$ThreatRange'
     }
   }, {
     '$lookup': {
@@ -36,7 +36,7 @@ const basePipeline = [
       'numParking': 1,
       'detectionRange': 1,
       'threatRangeMin':1,
-      'ThreatRange':1
+      'threatRange':1
     }
   }
 ]
