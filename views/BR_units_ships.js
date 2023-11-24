@@ -9,6 +9,9 @@ const basePipeline = [
       'module': '$_origin',
       'shape': '$visual.shape',
       'numParking': 1,
+      'detectionRange': '$DetectionRange',
+      'threatRangeMin':'$ThreatRangeMin',
+      'threatRange':'$ThreatRange'
     }
   }, {
     '$lookup': {
@@ -31,6 +34,9 @@ const basePipeline = [
       'operators':  { '$ifNull': [ "$operators.operators", {}]},
       'shape': 1,
       'numParking': 1,
+      'detectionRange': 1,
+      'threatRangeMin':1,
+      'threatRange':1
     }
   }
 ]

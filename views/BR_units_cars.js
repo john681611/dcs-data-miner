@@ -8,7 +8,10 @@ const basePipeline = [
       'category': 1,
       'module': '$_origin',
       'paintSchemes': 1,
-      'shape': '$visual.shape'
+      'shape': '$visual.shape',
+      'detectionRange': '$DetectionRange',
+      'threatRangeMin':'$ThreatRangeMin',
+      'threatRange':'$ThreatRange'
     }
   }, {
     '$lookup': {
@@ -30,7 +33,10 @@ const basePipeline = [
       'module': 1,
       'paintSchemes': 1,
       'operators':  {'$ifNull': [ "$operators.operators", {}]},
-      'shape': 1
+      'shape': 1,
+      'detectionRange': 1,
+      'threatRangeMin':1,
+      'threatRange':1
     }
   }
 ]
