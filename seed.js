@@ -93,7 +93,8 @@ async function run() {
   console.log("Populating Custom File Tables");
   await Aigle.eachSeries([
     { name: "UnitOperators", data: require("./customDataSets/UnitOperators.json"), keyFields: ['type']},
-    { name: "UnitOperators", data: require("./customDataSets/UnitOperatorsMods.json"), keyFields: ['type']}
+    { name: "UnitOperators", data: require("./customDataSets/UnitOperatorsMods.json"), keyFields: ['type']},
+    { name: "Templates", data: require("./customDataSets/TemplatesCustom.json"), keyFields: ['name','country']}
   ], populateCollection("N/A"));
   console.log("Populated Custom File Tables");
 
