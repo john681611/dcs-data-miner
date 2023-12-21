@@ -42,9 +42,13 @@ function load_templates()
 								templates[newName].name = newName
 							end
 						end
+						local cID = templ.country
 						templates[templName] = templ
+                        templates[templName].country = country.names[cID]
 						if k == 2 then
 							templates[templName].sys = true
+						else
+							templates[templName].sys = false
 						end
 					end
 				end

@@ -14,7 +14,8 @@ const extractMap = {
     'BR_units_static_Warehouses': 'UnitWarehouses',
     'BR_units_cargo': 'UnitCargo',
     'BR_units_static_Heliports': 'UnitHeliports',
-    'Templates': 'Templates',
+    'BR_templates': "Templates",
+    'BR_templates_mod': 'TemplatesCustom',
     'BR_layouts': 'Layouts',
     'BR_airbases': 'TheatersAirbases'
 }
