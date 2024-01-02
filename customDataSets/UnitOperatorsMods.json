@@ -2005,5 +2005,2506 @@
                 1990
             ]
         }
-    }
+    },
+    {
+        "type": "CH_2S38_LG",
+        "operators": {
+          "Russia": [
+            2010,
+            2020
+          ]
+        },
+        "operational": [
+          2010,
+          2020
+        ]
+      },
+      {
+        "type": "CH_2S38",
+        "operators": {
+          "Russia": [
+            2010,
+            2020
+          ]
+        },
+        "operational": [
+          2010,
+          2020
+        ]
+      },
+      {
+        "type": "CH_Alligator_Sniper",
+        "operators": {
+          "Ukraine": [
+            2020,
+            2020
+          ]
+        },
+        "operational": [
+          2020,
+          2020
+        ]
+      },
+      {
+        "type": "BTR-4",
+        "operators": {
+          "Ukraine": [
+            2010,
+            2020
+          ]
+        },
+        "operational": [
+          2010,
+          2020
+        ]
+      },
+      {
+        "type": "K300P",
+        "operators": {
+          "Russia": [
+            2010,
+            2020
+          ]
+        },
+        "operational": [
+          2010,
+          2020
+        ]
+      },
+      {
+        "type": "MonolitB",
+        "operators": {
+          "Russia": [
+            2010,
+            2020
+          ]
+        },
+        "operational": [
+          2010,
+          2020
+        ]
+      },
+      {
+        "type": "AG-90",
+        "operators": {
+          "Sweden": [
+            1990,
+            2020
+          ]
+        },
+        "operational": [
+          2010,
+          2020
+        ]
+      },
+      {
+        "type": "Artillerisystem08",
+        "operators": {
+          "Sweden": [
+            2010,
+            2020
+          ]
+        },
+        "operational": [
+          2010,
+          2020
+        ]
+      },
+      {
+        "type": "CH_3K60_BAL",
+        "operators": {
+          "Russia": [
+            2010,
+            2020
+          ]
+        },
+        "operational": [
+          2010,
+          2020
+        ]
+      },
+      {
+        "type": "BV410",
+        "operators": {
+          "Sweden": [
+            2010,
+            2020
+          ]
+        },
+        "operational": [
+          2010,
+          2020
+        ]
+      },
+      {
+        "type": "CH_CJ10",
+        "operators": {
+          "China": [
+            2000,
+            2020
+          ]
+        },
+        "operational": [
+          2000,
+          2020
+        ]
+      },
+      {
+        "type": "CH_CV9050",
+        "operators": {
+          "Sweden": [
+            2020,
+            2020
+          ]
+        },
+        "operational": [
+          2020,
+          2020
+        ]
+      },
+      {
+        "type": "CH_Challenger3",
+        "operators": {
+          "UK": [
+            1990,
+            2020
+          ]
+        },
+        "operational": [
+          2010,
+          2020
+        ]
+      },
+      {
+        "type": "CH_DSHK_HMG_RUS",
+        "operators": {
+          "Russia": [
+            1940,
+            2020
+          ]
+        },
+        "operational": [
+          1940,
+          2020
+        ]
+      },
+      {
+        "type": "CH_DSHK_HMG_UKR",
+        "operators": {
+          "Ukraine": [
+            1940,
+            2020
+          ]
+        },
+        "operational": [
+          1940,
+          2020
+        ]
+      },
+      {
+        "type": "Grkpbv90",
+        "operators": {
+          "Sweden": [
+            2010,
+            2020
+          ]
+        },
+        "operational": [
+          2010,
+          2020
+        ]
+      },
+      {
+        "type": "CH_HQ22_LN",
+        "operators": {
+          "China": [
+            2010,
+            2020
+          ]
+        },
+        "operational": [
+          2010,
+          2020
+        ]
+      },
+      {
+        "type": "CH_HQ22_STR",
+        "operators": {
+          "China": [
+            2010,
+            2020
+          ]
+        },
+        "operational": [
+          2010,
+          2020
+        ]
+      },
+      {
+        "type": "CH_HQ22_SR",
+        "operators": {
+          "China": [
+            2010,
+            2020
+          ]
+        },
+        "operational": [
+          2010,
+          2020
+        ]
+      },
+      {
+        "type": "CH_LAVAD",
+        "operators": {
+          "USA": [
+            1980,
+            2020
+          ]
+        },
+        "operational": [
+          1980,
+          2020
+        ]
+      },
+      {
+        "type": "CH_LD3000",
+        "operators": {
+          "China": [
+            2020,
+            2020
+          ]
+        },
+        "operational": [
+          2020,
+          2020
+        ]
+      },
+      {
+        "type": "CH_LD3000_stationary",
+        "operators": {
+          "China": [
+            2020,
+            2020
+          ]
+        },
+        "operational": [
+          2020,
+          2020
+        ]
+      },
+      {
+        "type": "LvS-103_Lavett103_Rb103A",
+        "operators": {
+          "Sweden": [
+            2010,
+            2020
+          ]
+        },
+        "operational": [
+          2010,
+          2020
+        ]
+      },
+      {
+        "type": "LvS-103_Lavett103_Rb103B",
+        "operators": {
+          "Sweden": [
+            2010,
+            2020
+          ]
+        },
+        "operational": [
+          2010,
+          2020
+        ]
+      },
+      {
+        "type": "LvS-103_Lavett103_HX_Rb103A",
+        "operators": {
+          "Sweden": [
+            2010,
+            2020
+          ]
+        },
+        "operational": [
+          2010,
+          2020
+        ]
+      },
+      {
+        "type": "LvS-103_Lavett103_HX_Rb103B",
+        "operators": {
+          "Sweden": [
+            2010,
+            2020
+          ]
+        },
+        "operational": [
+          2010,
+          2020
+        ]
+      },
+      {
+        "type": "LvS-103_StriE103",
+        "operators": {
+          "Sweden": [
+            2010,
+            2020
+          ]
+        },
+        "operational": [
+          2010,
+          2020
+        ]
+      },
+      {
+        "type": "LvS-103_PM103",
+        "operators": {
+          "Sweden": [
+            2010,
+            2020
+          ]
+        },
+        "operational": [
+          2010,
+          2020
+        ]
+      },
+      {
+        "type": "LvS-103_PM103_HX",
+        "operators": {
+          "Sweden": [
+            2010,
+            2020
+          ]
+        },
+        "operational": [
+          2010,
+          2020
+        ]
+      },
+      {
+        "type": "LvS-103_Elverk103",
+        "operators": {
+          "Sweden": [
+            2010,
+            2020
+          ]
+        },
+        "operational": [
+          2010,
+          2020
+        ]
+      },
+      {
+        "type": "LvKv9040",
+        "operators": {
+          "Sweden": [
+            1990,
+            2020
+          ]
+        },
+        "operational": [
+          1990,
+          2020
+        ]
+      },
+      {
+        "type": "CH_M10",
+        "operators": {
+          "USA": [
+            2020,
+            2020
+          ]
+        },
+        "operational": [
+          2020,
+          2020
+        ]
+      },
+      {
+        "type": "CH_M1A2SEPV3",
+        "operators": {
+          "USA": [
+            2010,
+            2020
+          ]
+        },
+        "operational": [
+          2010,
+          2020
+        ]
+      },
+      {
+        "type": "CH_M551",
+        "operators": {
+          "USA": [
+            1970,
+            2020
+          ]
+        },
+        "operational": [
+          1970,
+          2020
+        ]
+      },
+      {
+        "type": "CH_M777LTH",
+        "operators": {
+          "USA": [
+            2000,
+            2020
+          ],
+          "Ukraine": [
+            2020,
+            2020
+          ]
+        },
+        "operational": [
+          2000,
+          2020
+        ]
+      },
+      {
+        "type": "CH_M777LTH_MTVR",
+        "operators": {
+          "USA": [
+            2000,
+            2020
+          ],
+          "Ukraine": [
+            2020,
+            2020
+          ]
+        },
+        "operational": [
+          2000,
+          2020
+        ]
+      },
+      {
+        "type": "CH_MTVR",
+        "operators": {
+          "USA": [
+            2000,
+            2020
+          ],
+          "Ukraine": [
+            2020,
+            2020
+          ]
+        },
+        "operational": [
+          2000,
+          2020
+        ]
+      },
+      {
+        "type": "CH_Marder1A5",
+        "operators": {
+          "Germany": [
+            2000,
+            2020
+          ],
+          "Ukraine": [
+            2020,
+            2020
+          ]
+        },
+        "operational": [
+          2000,
+          2020
+        ]
+      },
+      {
+        "type": "CH_OshkoshLATV_M2",
+        "operators": {
+          "USA": [
+            2010,
+            2020
+          ],
+          "Ukraine": [
+            2020,
+            2020
+          ]
+        },
+        "operational": [
+          2010,
+          2020
+        ]
+      },
+      {
+        "type": "CH_OshkoshLATV_MK19",
+        "operators": {
+          "USA": [
+            2010,
+            2020
+          ],
+          "Ukraine": [
+            2020,
+            2020
+          ]
+        },
+        "operational": [
+          2010,
+          2020
+        ]
+      },
+      {
+        "type": "CH_OshkoshMATV_M2",
+        "operators": {
+          "USA": [
+            2000,
+            2020
+          ],
+          "Ukraine": [
+            2020,
+            2020
+          ]
+        },
+        "operational": [
+          2000,
+          2020
+        ]
+      },
+      {
+        "type": "CH_OshkoshMATV_MK19",
+        "operators": {
+          "USA": [
+            2000,
+            2020
+          ],
+          "Ukraine": [
+            2020,
+            2020
+          ]
+        },
+        "operational": [
+          2000,
+          2020
+        ]
+      },
+      {
+        "type": "CH_PCL181",
+        "operators": {
+          "China": [
+            2010,
+            2020
+          ]
+        },
+        "operational": [
+          2010,
+          2020
+        ]
+      },
+      {
+        "type": "CH_PumaA1",
+        "operators": {
+          "Germany": [
+            2020,
+            2020
+          ]
+        },
+        "operational": [
+          2020,
+          2020
+        ]
+      },
+      {
+        "type": "CH_PZH2000",
+        "operators": {
+          "Germany": [
+            1990,
+            2020
+          ],
+          "Ukraine": [
+            2020,
+            2020
+          ]
+        },
+        "operational": [
+          1990,
+          2020
+        ]
+      },
+      {
+        "type": "RBS-15KA",
+        "operators": {
+          "Sweden": [
+            1980,
+            2020
+          ]
+        },
+        "operational": [
+          1980,
+          2020
+        ]
+      },
+      {
+        "type": "RBS-58",
+        "operators": {
+          "Sweden": [
+            2020,
+            2020
+          ]
+        },
+        "operational": [
+          2020,
+          2020
+        ]
+      },
+      {
+        "type": "RBS-70",
+        "operators": {
+          "Sweden": [
+            1970,
+            2020
+          ]
+        },
+        "operational": [
+          1970,
+          2020
+        ]
+      },
+      {
+        "type": "BV410_RBS70",
+        "operators": {
+          "Sweden": [
+            1970,
+            2020
+          ]
+        },
+        "operational": [
+          1970,
+          2020
+        ]
+      },
+      {
+        "type": "RBS-90",
+        "operators": {
+          "Sweden": [
+            1990,
+            2020
+          ]
+        },
+        "operational": [
+          1990,
+          2020
+        ]
+      },
+      {
+        "type": "BV410_RBS90",
+        "operators": {
+          "Sweden": [
+            1990,
+            2020
+          ]
+        },
+        "operational": [
+          1990,
+          2020
+        ]
+      },
+      {
+        "type": "RBS-98",
+        "operators": {
+          "Sweden": [
+            1990,
+            2020
+          ]
+        },
+        "operational": [
+          1990,
+          2020
+        ]
+      },
+      {
+        "type": "CH_S350_50P6_9M96D",
+        "operators": {
+          "Russia": [
+            2010,
+            2020
+          ]
+        },
+        "operational": [
+          2010,
+          2020
+        ]
+      },
+      {
+        "type": "CH_S350_50P6_9M100",
+        "operators": {
+          "Russia": [
+            2010,
+            2020
+          ]
+        },
+        "operational": [
+          2010,
+          2020
+        ]
+      },
+      {
+        "type": "CH_S350_50N6",
+        "operators": {
+          "Russia": [
+            2010,
+            2020
+          ]
+        },
+        "operational": [
+          2010,
+          2020
+        ]
+      },
+      {
+        "type": "CH_S350_50K6",
+        "operators": {
+          "Russia": [
+            2010,
+            2020
+          ]
+        },
+        "operational": [
+          2010,
+          2020
+        ]
+      },
+      {
+        "type": "CH_S350_96L6",
+        "operators": {
+          "Russia": [
+            2010,
+            2020
+          ]
+        },
+        "operational": [
+          2010,
+          2020
+        ]
+      },
+      {
+        "type": "CH_Shahed136",
+        "operators": {
+          "Iran": [
+            2020,
+            2020
+          ],
+          "Russia": [
+            2020,
+            2020
+          ]
+        },
+        "operational": [
+          2020,
+          2020
+        ]
+      },
+      {
+        "type": "CV9040",
+        "operators": {
+          "Sweden": [
+            1990,
+            2020
+          ]
+        },
+        "operational": [
+          1990,
+          2020
+        ]
+      },
+      {
+        "type": "CH_Strf9040C",
+        "operators": {
+          "Sweden": [
+            2000,
+            2020
+          ]
+        },
+        "operational": [
+          2000,
+          2020
+        ]
+      },
+      {
+        "type": "Strv103",
+        "operators": {
+          "Sweden": [
+            1960,
+            1990
+          ]
+        },
+        "operational": [
+          1960,
+          1990
+        ]
+      },
+      {
+        "type": "Strv121",
+        "operators": {
+          "Sweden": [
+            1990,
+            2000
+          ]
+        },
+        "operational": [
+          1990,
+          2000
+        ]
+      },
+      {
+        "type": "Strv122",
+        "operators": {
+          "Sweden": [
+            1990,
+            2020
+          ]
+        },
+        "operational": [
+          2010,
+          2020
+        ]
+      },
+      {
+        "type": "Strv2000",
+        "operators": {
+          "Sweden": [
+            1990,
+            2000
+          ]
+        },
+        "operational": [
+          1990,
+          2000
+        ]
+      },
+      {
+        "type": "SwedishinfantryAK4",
+        "operators": {
+          "Sweden": [
+            1960,
+            2020
+          ]
+        },
+        "operational": [
+          1960,
+          2020
+        ]
+      },
+      {
+        "type": "SwedishinfantryAK5",
+        "operators": {
+          "Sweden": [
+            1980,
+            2020
+          ]
+        },
+        "operational": [
+          1980,
+          2020
+        ]
+      },
+      {
+        "type": "SwedishinfantryAK5GT",
+        "operators": {
+          "Sweden": [
+            1980,
+            2020
+          ]
+        },
+        "operational": [
+          1980,
+          2020
+        ]
+      },
+      {
+        "type": "SwedishinfantryKSP90",
+        "operators": {
+          "Sweden": [
+            1990,
+            2020
+          ]
+        },
+        "operational": [
+          1990,
+          2020
+        ]
+      },
+      {
+        "type": "SwedishinfantryKSP58",
+        "operators": {
+          "Sweden": [
+            1950,
+            2020
+          ]
+        },
+        "operational": [
+          1950,
+          2020
+        ]
+      },
+      {
+        "type": "SwedishinfantryPskott86",
+        "operators": {
+          "Sweden": [
+            1980,
+            2020
+          ]
+        },
+        "operational": [
+          1980,
+          2020
+        ]
+      },
+      {
+        "type": "RBS-57",
+        "operators": {
+          "Sweden": [
+            2000,
+            2020
+          ]
+        },
+        "operational": [
+          2000,
+          2020
+        ]
+      },
+      {
+        "type": "CH_T14",
+        "operators": {
+          "Russia": [
+            2020,
+            2020
+          ]
+        },
+        "operational": [
+          2020,
+          2020
+        ]
+      },
+      {
+        "type": "CH_TigrM",
+        "operators": {
+          "Russia": [
+            2000,
+            2020
+          ]
+        },
+        "operational": [
+          2000,
+          2020
+        ]
+      },
+      {
+        "type": "CH_USInfantry_FGM148",
+        "operators": {
+          "USA": [
+            1990,
+            2020
+          ]
+        },
+        "operational": [
+          1990,
+          2020
+        ]
+      },
+      {
+        "type": "CH_USInfantry_M136",
+        "operators": {
+          "USA": [
+            1980,
+            2020
+          ]
+        },
+        "operational": [
+          1980,
+          2020
+        ]
+      },
+      {
+        "type": "CH_USInfantry_M2",
+        "operators": {
+          "USA": [
+            1930,
+            2020
+          ]
+        },
+        "operational": [
+          1930,
+          2020
+        ]
+      },
+      {
+        "type": "CH_USInfantry_M82",
+        "operators": {
+          "USA": [
+            1980,
+            2020
+          ]
+        },
+        "operational": [
+          1980,
+          2020
+        ]
+      },
+      {
+        "type": "CH_USInfantry_MK19",
+        "operators": {
+          "USA": [
+            1960,
+            2020
+          ]
+        },
+        "operational": [
+          1960,
+          2020
+        ]
+      },
+      {
+        "type": "CH_USInfantry_M4",
+        "operators": {
+          "USA": [
+            1990,
+            2020
+          ]
+        },
+        "operational": [
+          1990,
+          2020
+        ]
+      },
+      {
+        "type": "CH_USInfantry_M240",
+        "operators": {
+          "USA": [
+            1970,
+            2020
+          ]
+        },
+        "operational": [
+          1970,
+          2020
+        ]
+      },
+      {
+        "type": "CH_USInfantry_M249",
+        "operators": {
+          "USA": [
+            1980,
+            2020
+          ]
+        },
+        "operational": [
+          1980,
+          2020
+        ]
+      },
+      {
+        "type": "CH_USInfantry_M4M203",
+        "operators": {
+          "USA": [
+            1990,
+            2020
+          ]
+        },
+        "operational": [
+          1990,
+          2020
+        ]
+      },
+      {
+        "type": "CH_USInfantry_FIM92",
+        "operators": {
+          "USA": [
+            1980,
+            2020
+          ]
+        },
+        "operational": [
+          1980,
+          2020
+        ]
+      },
+      {
+        "type": "CH_USInfantry_M120",
+        "operators": {
+          "USA": [
+            1990,
+            2020
+          ]
+        },
+        "operational": [
+          1990,
+          2020
+        ]
+      },
+      {
+        "type": "UndE23",
+        "operators": {
+          "Sweden": [
+            2000,
+            2020
+          ]
+        },
+        "operational": [
+          2000,
+          2020
+        ]
+      },
+      {
+        "type": "Volvo740",
+        "operators": {
+          "Sweden": [
+            1980,
+            2020
+          ]
+        },
+        "operational": [
+          1980,
+          2020
+        ]
+      },
+      {
+        "type": "CH_ZBD04A-AT",
+        "operators": {
+          "China": [
+            1990,
+            2020
+          ]
+        },
+        "operational": [
+          1990,
+          2020
+        ]
+      },
+      {
+        "type": "CH_Centurion_C_RAM",
+        "operators": {
+          "USA": [
+            2000,
+            2020
+          ]
+        },
+        "operational": [
+          2000,
+          2020
+        ]
+      },
+      {
+        "type": "HQ17A",
+        "operators": {
+          "China": [
+            2010,
+            2020
+          ]
+        },
+        "operational": [
+          2010,
+          2020
+        ]
+      },
+      {
+        "type": "CH_IskanderM",
+        "operators": {
+          "Russia": [
+            2000,
+            2020
+          ]
+        },
+        "operational": [
+          2000,
+          2020
+        ]
+      },
+      {
+        "type": "CH_IskanderK",
+        "operators": {
+          "Russia": [
+            2000,
+            2020
+          ]
+        },
+        "operational": [
+          2000,
+          2020
+        ]
+      },
+      {
+        "type": "M142_HIMARS_GLSDB",
+        "operators": {
+          "USA": [
+            2020,
+            2020
+          ],
+          "Ukraine": [
+            2020,
+            2020
+          ]
+        },
+        "operational": [
+          2020,
+          2020
+        ]
+      },
+      {
+        "type": "M142_HIMARS_ATACMS",
+        "operators": {
+          "USA": [
+            2010,
+            2020
+          ],
+          "Ukraine": [
+            2020,
+            2020
+          ]
+        },
+        "operational": [
+          2010,
+          2020
+        ]
+      },
+      {
+        "type": "M142_HIMARS_GMLRS",
+        "operators": {
+          "USA": [
+            2000,
+            2020
+          ],
+          "Ukraine": [
+            2020,
+            2020
+          ]
+        },
+        "operational": [
+          2000,
+          2020
+        ]
+      },
+      {
+        "type": "M142_HIMARS_PRSM",
+        "operators": {
+          "USA": [
+            2020,
+            2020
+          ],
+          "Ukraine": [
+            2020,
+            2020
+          ]
+        },
+        "operational": [
+          2020,
+          2020
+        ]
+      },
+      {
+        "type": "M142_HIMARS_PRSM_ASHM",
+        "operators": {
+          "USA": [
+            2020,
+            2020
+          ],
+          "Ukraine": [
+            2020,
+            2020
+          ]
+        },
+        "operational": [
+          2020,
+          2020
+        ]
+      },
+      {
+        "type": "CH_M270A1_GLSDB",
+        "operators": {
+          "USA": [
+            2020,
+            2020
+          ],
+          "Ukraine": [
+            2020,
+            2020
+          ],
+          "Finland": [
+            2020,
+            2020
+          ],
+          "France": [
+            2020,
+            2020
+          ],
+          "Germany": [
+            2020,
+            2020
+          ],
+          "Italy": [
+            2020,
+            2020
+          ],
+          "South Korea": [
+            2020,
+            2020
+          ],
+          "UK": [
+            2020,
+            2020
+          ]
+        },
+        "operational": [
+          2020,
+          2020
+        ]
+      },
+      {
+        "type": "CH_M270A1_ATACMS",
+        "operators": {
+          "USA": [
+            1990,
+            2020
+          ],
+          "Ukraine": [
+            1990,
+            2020
+          ],
+          "Finland": [
+            1990,
+            2020
+          ],
+          "France": [
+            1990,
+            2020
+          ],
+          "Germany": [
+            1990,
+            2020
+          ],
+          "Italy": [
+            1990,
+            2020
+          ],
+          "South Korea": [
+            1990,
+            2020
+          ],
+          "UK": [
+            1990,
+            2020
+          ]
+        },
+        "operational": [
+          1990,
+          2020
+        ]
+      },
+      {
+        "type": "CH_M270A1_GMLRS",
+        "operators": {
+          "USA": [
+            2000,
+            2020
+          ],
+          "Ukraine": [
+            2000,
+            2020
+          ],
+          "Finland": [
+            2000,
+            2020
+          ],
+          "France": [
+            2000,
+            2020
+          ],
+          "Germany": [
+            2000,
+            2020
+          ],
+          "Italy": [
+            2000,
+            2020
+          ],
+          "South Korea": [
+            2000,
+            2020
+          ],
+          "UK": [
+            2000,
+            2020
+          ]
+        },
+        "operational": [
+          2000,
+          2020
+        ]
+      },
+      {
+        "type": "MIM104_M903_PAC2",
+        "operators": {
+          "USA": [
+            2010,
+            2020
+          ],
+          "Ukraine": [
+            2020,
+            2020
+          ],
+          "Germany": [
+            2010,
+            2020
+          ],
+          "Greece": [
+            2010,
+            2020
+          ],
+          "Israel": [
+            2010,
+            2020
+          ],
+          "Japan": [
+            2010,
+            2020
+          ],
+          "Poland": [
+            2010,
+            2020
+          ],
+          "Spain": [
+            2010,
+            2020
+          ],
+          "Taiwan": [
+            2010,
+            2020
+          ],
+          "Romania": [
+            2010,
+            2020
+          ],
+          "South Korea": [
+            2010,
+            2020
+          ],
+          "Jordan": [
+            2010,
+            2020
+          ],
+          "Saudi Arabia": [
+            2010,
+            2020
+          ],
+          "United Arab Emirates": [
+            2010,
+            2020
+          ]
+        },
+        "operational": [
+          2010,
+          2020
+        ]
+      },
+      {
+        "type": "MIM104_M903_PAC3",
+        "operators": {
+          "USA": [
+            2010,
+            2020
+          ],
+          "Ukraine": [
+            2020,
+            2020
+          ],
+          "Germany": [
+            2010,
+            2020
+          ],
+          "Greece": [
+            2010,
+            2020
+          ],
+          "Israel": [
+            2010,
+            2020
+          ],
+          "Japan": [
+            2010,
+            2020
+          ],
+          "Poland": [
+            2010,
+            2020
+          ],
+          "Spain": [
+            2010,
+            2020
+          ],
+          "Taiwan": [
+            2010,
+            2020
+          ],
+          "Romania": [
+            2010,
+            2020
+          ],
+          "South Korea": [
+            2010,
+            2020
+          ],
+          "Jordan": [
+            2010,
+            2020
+          ],
+          "Saudi Arabia": [
+            2010,
+            2020
+          ],
+          "United Arab Emirates": [
+            2010,
+            2020
+          ]
+        },
+        "operational": [
+          2010,
+          2020
+        ]
+      },
+      {
+        "type": "MIM104_ECS",
+        "operators": {
+          "USA": [
+            2010,
+            2020
+          ],
+          "Ukraine": [
+            2020,
+            2020
+          ],
+          "Germany": [
+            2010,
+            2020
+          ],
+          "Greece": [
+            2010,
+            2020
+          ],
+          "Israel": [
+            2010,
+            2020
+          ],
+          "Japan": [
+            2010,
+            2020
+          ],
+          "Poland": [
+            2010,
+            2020
+          ],
+          "Spain": [
+            2010,
+            2020
+          ],
+          "Taiwan": [
+            2010,
+            2020
+          ],
+          "Romania": [
+            2010,
+            2020
+          ],
+          "South Korea": [
+            2010,
+            2020
+          ],
+          "Jordan": [
+            2010,
+            2020
+          ],
+          "Saudi Arabia": [
+            2010,
+            2020
+          ],
+          "United Arab Emirates": [
+            2010,
+            2020
+          ]
+        },
+        "operational": [
+          2010,
+          2020
+        ]
+      },
+      {
+        "type": "MIM104_ANMPQ65",
+        "operators": {
+          "USA": [
+            2010,
+            2020
+          ],
+          "Ukraine": [
+            2020,
+            2020
+          ],
+          "Germany": [
+            2010,
+            2020
+          ],
+          "Greece": [
+            2010,
+            2020
+          ],
+          "Israel": [
+            2010,
+            2020
+          ],
+          "Japan": [
+            2010,
+            2020
+          ],
+          "Poland": [
+            2010,
+            2020
+          ],
+          "Spain": [
+            2010,
+            2020
+          ],
+          "Taiwan": [
+            2010,
+            2020
+          ],
+          "Romania": [
+            2010,
+            2020
+          ],
+          "South Korea": [
+            2010,
+            2020
+          ],
+          "Jordan": [
+            2010,
+            2020
+          ],
+          "Saudi Arabia": [
+            2010,
+            2020
+          ],
+          "United Arab Emirates": [
+            2010,
+            2020
+          ]
+        },
+        "operational": [
+          2010,
+          2020
+        ]
+      },
+      {
+        "type": "MIM104_ANMPQ65A",
+        "operators": {
+          "USA": [
+            2010,
+            2020
+          ],
+          "Ukraine": [
+            2020,
+            2020
+          ],
+          "Germany": [
+            2010,
+            2020
+          ],
+          "Greece": [
+            2010,
+            2020
+          ],
+          "Israel": [
+            2010,
+            2020
+          ],
+          "Japan": [
+            2010,
+            2020
+          ],
+          "Poland": [
+            2010,
+            2020
+          ],
+          "Spain": [
+            2010,
+            2020
+          ],
+          "Taiwan": [
+            2010,
+            2020
+          ],
+          "Romania": [
+            2010,
+            2020
+          ],
+          "South Korea": [
+            2010,
+            2020
+          ],
+          "Jordan": [
+            2010,
+            2020
+          ],
+          "Saudi Arabia": [
+            2010,
+            2020
+          ],
+          "United Arab Emirates": [
+            2010,
+            2020
+          ]
+        },
+        "operational": [
+          2010,
+          2020
+        ]
+      },
+      {
+        "type": "MIM104_LTAMDS",
+        "operators": {
+          "USA": [
+            2010,
+            2020
+          ],
+          "Ukraine": [
+            2020,
+            2020
+          ],
+          "Germany": [
+            2010,
+            2020
+          ],
+          "Greece": [
+            2010,
+            2020
+          ],
+          "Israel": [
+            2010,
+            2020
+          ],
+          "Japan": [
+            2010,
+            2020
+          ],
+          "Poland": [
+            2010,
+            2020
+          ],
+          "Spain": [
+            2010,
+            2020
+          ],
+          "Taiwan": [
+            2010,
+            2020
+          ],
+          "Romania": [
+            2010,
+            2020
+          ],
+          "South Korea": [
+            2010,
+            2020
+          ],
+          "Jordan": [
+            2010,
+            2020
+          ],
+          "Saudi Arabia": [
+            2010,
+            2020
+          ],
+          "United Arab Emirates": [
+            2010,
+            2020
+          ]
+        },
+        "operational": [
+          2020,
+          2020
+        ]
+      },
+      {
+        "type": "MIM104_EPP",
+        "operators": {
+          "USA": [
+            2010,
+            2020
+          ],
+          "Ukraine": [
+            2020,
+            2020
+          ],
+          "Germany": [
+            2010,
+            2020
+          ],
+          "Greece": [
+            2010,
+            2020
+          ],
+          "Israel": [
+            2010,
+            2020
+          ],
+          "Japan": [
+            2010,
+            2020
+          ],
+          "Poland": [
+            2010,
+            2020
+          ],
+          "Spain": [
+            2010,
+            2020
+          ],
+          "Taiwan": [
+            2010,
+            2020
+          ],
+          "Romania": [
+            2010,
+            2020
+          ],
+          "South Korea": [
+            2010,
+            2020
+          ],
+          "Jordan": [
+            2010,
+            2020
+          ],
+          "Saudi Arabia": [
+            2010,
+            2020
+          ],
+          "United Arab Emirates": [
+            2010,
+            2020
+          ]
+        },
+        "operational": [
+          2010,
+          2020
+        ]
+      },
+      {
+        "type": "CH_NASAMS3_LN_AMRAAM_ER",
+        "operators": {
+          "USA": [
+            2020,
+            2020
+          ]
+        },
+        "operational": [
+          2020,
+          2020
+        ]
+      },
+      {
+        "type": "CH_NASAMS3_LN_AIM9X2",
+        "operators": {
+          "USA": [
+            2020,
+            2020
+          ]
+        },
+        "operational": [
+          2020,
+          2020
+        ]
+      },
+      {
+        "type": "CH_NASAMS3_SR",
+        "operators": {
+          "USA": [
+            2020,
+            2020
+          ]
+        },
+        "operational": [
+          2020,
+          2020
+        ]
+      },
+      {
+        "type": "CH_NASAMS3_CP",
+        "operators": {
+          "USA": [
+            2020,
+            2020
+          ]
+        },
+        "operational": [
+          2020,
+          2020
+        ]
+      },
+      {
+        "type": "PGL_625",
+        "operators": {
+          "China": [
+            2000,
+            2020
+          ]
+        },
+        "operational": [
+          2000,
+          2020
+        ]
+      },
+      {
+        "type": "CH_PGZ09",
+        "operators": {
+          "China": [
+            2000,
+            2020
+          ]
+        },
+        "operational": [
+          2000,
+          2020
+        ]
+      },
+      {
+        "type": "PantsirS1",
+        "operators": {
+          "Russia": [
+            2010,
+            2020
+          ]
+        },
+        "operational": [
+          2010,
+          2020
+        ]
+      },
+      {
+        "type": "PantsirS2",
+        "operators": {
+          "Russia": [
+            2010,
+            2020
+          ]
+        },
+        "operational": [
+          2010,
+          2020
+        ]
+      },
+      {
+        "type": "CH_Stugna_P",
+        "operators": {
+          "Ukraine": [
+            2010,
+            2020
+          ]
+        },
+        "operational": [
+          2010,
+          2020
+        ]
+      },
+      {
+        "type": "CH_T64BV",
+        "operators": {
+          "Ukraine": [
+            2010,
+            2020
+          ]
+        },
+        "operational": [
+          2010,
+          2020
+        ]
+      },
+      {
+        "type": "T84_OplotM",
+        "operators": {
+          "Ukraine": [
+            2010,
+            2020
+          ]
+        },
+        "operational": [
+          2010,
+          2020
+        ]
+      },
+      {
+        "type": "CH_T90M",
+        "operators": {
+          "Russia": [
+            2010,
+            2020
+          ]
+        },
+        "operational": [
+          2010,
+          2020
+        ]
+      },
+      {
+        "type": "TorM2K",
+        "operators": {
+          "Russia": [
+            2000,
+            2020
+          ]
+        },
+        "operational": [
+          2000,
+          2020
+        ]
+      },
+      {
+        "type": "TorM2",
+        "operators": {
+          "Russia": [
+            2000,
+            2020
+          ]
+        },
+        "operational": [
+          2000,
+          2020
+        ]
+      },
+      {
+        "type": "TorM2M",
+        "operators": {
+          "Russia": [
+            2010,
+            2020
+          ]
+        },
+        "operational": [
+          2010,
+          2020
+        ]
+      },
+      {
+        "type": "CH_ZTQ_15",
+        "operators": {
+          "China": [
+            2010,
+            2020
+          ]
+        },
+        "operational": [
+          2010,
+          2020
+        ]
+      },
+      {
+        "type": "ZTZ_99A2",
+        "operators": {
+          "China": [
+            2010,
+            2020
+          ]
+        },
+        "operational": [
+          2010,
+          2020
+        ]
+      },
+      {
+        "type": "HKP15B",
+        "operators": {
+          "Sweden": [
+            2000,
+            2020
+          ]
+        },
+        "operational": [
+          2000,
+          2020
+        ]
+      },
+      {
+        "type": "CH_Ka52",
+        "operators": {
+          "Russia": [
+            2010,
+            2020
+          ]
+        },
+        "operational": [
+          2010,
+          2020
+        ]
+      },
+      {
+        "type": "CH_Ka52K",
+        "operators": {
+          "Russia": [
+            2010,
+            2020
+          ]
+        },
+        "operational": [
+          2010,
+          2020
+        ]
+      },
+      {
+        "type": "B-21",
+        "operators": {
+          "USA": [
+            2020,
+            2020
+          ]
+        },
+        "operational": [
+          2020,
+          2020
+        ]
+      },
+      {
+        "type": "MiG-29MU2",
+        "operators": {
+          "Ukraine": [
+            2010,
+            2020
+          ]
+        },
+        "operational": [
+          2010,
+          2020
+        ]
+      },
+      {
+        "type": "Su-24MU",
+        "operators": {
+          "Ukraine": [
+            1970,
+            2020
+          ]
+        },
+        "operational": [
+          1970,
+          2020
+        ]
+      },
+      {
+        "type": "TB-2 UCAV",
+        "operators": {
+          "Turkey": [
+            2010,
+            2020
+          ],
+          "Ukraine": [
+            2020,
+            2020
+          ]
+        },
+        "operational": [
+          2010,
+          2020
+        ]
+      },
+      {
+        "type": "CH_Tu-95MSM",
+        "operators": {
+          "Russia": [
+            2020,
+            2020
+          ]
+        },
+        "operational": [
+          2020,
+          2020
+        ]
+      },
+      {
+        "type": "CH_Grigorovich_AShM",
+        "operators": {
+          "Russia": [
+            2010,
+            2020
+          ]
+        },
+        "operational": [
+          2010,
+          2020
+        ]
+      },
+      {
+        "type": "CH_Grigorovich_LACM",
+        "operators": {
+          "Russia": [
+            2010,
+            2020
+          ]
+        },
+        "operational": [
+          2010,
+          2020
+        ]
+      },
+      {
+        "type": "CH_Steregushchiy",
+        "operators": {
+          "Russia": [
+            2000,
+            2020
+          ]
+        },
+        "operational": [
+          2000,
+          2020
+        ]
+      },
+      {
+        "type": "CH_Project22160",
+        "operators": {
+          "Russia": [
+            2010,
+            2020
+          ]
+        },
+        "operational": [
+          2010,
+          2020
+        ]
+      },
+      {
+        "type": "Admiral_Gorshkov",
+        "operators": {
+          "Russia": [
+            2010,
+            2020
+          ]
+        },
+        "operational": [
+          2010,
+          2020
+        ]
+      },
+      {
+        "type": "Karakurt_AShM",
+        "operators": {
+          "Russia": [
+            2010,
+            2020
+          ]
+        },
+        "operational": [
+          2010,
+          2020
+        ]
+      },
+      {
+        "type": "Karakurt_LACM",
+        "operators": {
+          "Russia": [
+            2010,
+            2020
+          ]
+        },
+        "operational": [
+          2010,
+          2020
+        ]
+      },
+      {
+        "type": "Strb90",
+        "operators": {
+          "Sweden": [
+            1990,
+            2020
+          ]
+        },
+        "operational": [
+          1990,
+          2020
+        ]
+      },
+      {
+        "type": "CH_Type022",
+        "operators": {
+          "China": [
+            2000,
+            2020
+          ]
+        },
+        "operational": [
+          2000,
+          2020
+        ]
+      },
+      {
+        "type": "HSwMS_Visby",
+        "operators": {
+          "Sweden": [
+            2000,
+            2020
+          ]
+        },
+        "operational": [
+          2000,
+          2020
+        ]
+      },
+      {
+        "type": "IranFAC_MG_AShM",
+        "operators": {
+          "Iran": [
+            2000,
+            2020
+          ]
+        },
+        "operational": [
+          2000,
+          2020
+        ]
+      },
+      {
+        "type": "IranFAC_MG",
+        "operators": {
+          "Iran": [
+            2000,
+            2020
+          ]
+        },
+        "operational": [
+          2000,
+          2020
+        ]
+      },
+      {
+        "type": "Arleigh_Burke_Flight_III_SAM",
+        "operators": {
+          "USA": [
+            2020,
+            2020
+          ]
+        },
+        "operational": [
+          2020,
+          2020
+        ]
+      },
+      {
+        "type": "Arleigh_Burke_Flight_III_AShM",
+        "operators": {
+          "USA": [
+            2020,
+            2020
+          ]
+        },
+        "operational": [
+          2020,
+          2020
+        ]
+      },
+      {
+        "type": "Arleigh_Burke_Flight_III_LACM",
+        "operators": {
+          "USA": [
+            2020,
+            2020
+          ]
+        },
+        "operational": [
+          2020,
+          2020
+        ]
+      },
+      {
+        "type": "Ticonderoga_CMP_SAM",
+        "operators": {
+          "USA": [
+            2020,
+            2020
+          ]
+        },
+        "operational": [
+          2020,
+          2020
+        ]
+      },
+      {
+        "type": "Ticonderoga_CMP_AShM",
+        "operators": {
+          "USA": [
+            2020,
+            2020
+          ]
+        },
+        "operational": [
+          2020,
+          2020
+        ]
+      },
+      {
+        "type": "Ticonderoga_CMP_LACM",
+        "operators": {
+          "USA": [
+            2020,
+            2020
+          ]
+        },
+        "operational": [
+          2020,
+          2020
+        ]
+      },
+      {
+        "type": "Type052D",
+        "operators": {
+          "China": [
+            2010,
+            2020
+          ]
+        },
+        "operational": [
+          2010,
+          2020
+        ]
+      },
+      {
+        "type": "Type055",
+        "operators": {
+          "China": [
+            2020,
+            2020
+          ]
+        },
+        "operational": [
+          2020,
+          2020
+        ]
+      },
+      {
+        "type": "CH_Type26",
+        "operators": {
+          "UK": [
+            2020,
+            2020
+          ]
+        },
+        "operational": [
+          2020,
+          2020
+        ]
+      },
+      {
+        "type": "Type45",
+        "operators": {
+          "UK": [
+            2010,
+            2020
+          ]
+        },
+        "operational": [
+          2010,
+          2020
+        ]
+      }
 ]
