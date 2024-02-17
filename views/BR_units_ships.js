@@ -8,7 +8,8 @@ const basePipeline = [
       'categories': '$Categories',
       'module': '$_origin',
       'shape': '$visual.shape',
-      'numParking': 1,
+      'helicopterStorage': '$Helicopter_Num_',
+      'planeStorage': '$Plane_Num_',
       'detectionRange': '$DetectionRange',
       'threatRangeMin':'$ThreatRangeMin',
       'threatRange':'$ThreatRange'
@@ -33,7 +34,8 @@ const basePipeline = [
       'module': 1,
       'operators':  { '$ifNull': [ "$operators.operators", {}]},
       'shape': 1,
-      'numParking': 1,
+      'helicopterStorage': 1,
+      'planeStorage': 1,
       'detectionRange': 1,
       'threatRangeMin':1,
       'threatRange':1
