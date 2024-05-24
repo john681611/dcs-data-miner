@@ -18152,12 +18152,16 @@
         }
     },
     {
-        "type": "HQ-7_LN_SP",
+        "type": "HQ-7_LN_P",
         "operational": [
             1980,
             2020
         ],
         "operators": {
+            "USAFAggressors": [
+                1980,
+                2020
+            ],
             "China": [
                 1980,
                 2020
@@ -18167,7 +18171,36 @@
                 2020
             ],
             "Pakistan": [
-                1990,
+                1980,
+                2020
+            ],
+            "UnitedNationsPeacekeepers": [
+                1980,
+                2020
+            ]
+        }
+    },
+    {
+        "type": "HQ-7_LN_SP",
+        "operational": [
+            1980,
+            2020
+        ],
+        "operators": {
+            "USAFAggressors": [
+                1980,
+                2020
+            ],
+            "China": [
+                1980,
+                2020
+            ],
+            "Iran": [
+                1980,
+                2020
+            ],
+            "Pakistan": [
+                1980,
                 2020
             ],
             "UnitedNationsPeacekeepers": [
@@ -18184,6 +18217,18 @@
         ],
         "operators": {
             "USAFAggressors": [
+                1980,
+                2020
+            ],
+            "China": [
+                1980,
+                2020
+            ],
+            "Iran": [
+                1980,
+                2020
+            ],
+            "Pakistan": [
                 1980,
                 2020
             ],
@@ -23951,6 +23996,71 @@
     },
     {
         "type": "F-4E",
+        "operational": [
+            1960,
+            2010
+        ],
+        "operators": {
+            "USA": [
+                1970,
+                2010
+            ],
+            "Turkey": [
+                1970,
+                2020
+            ],
+            "Germany": [
+                1970,
+                1990
+            ],
+            "USAFAggressors": [
+                1970,
+                2010
+            ],
+            "Spain": [
+                1970,
+                2000
+            ],
+            "Israel": [
+                1970,
+                2000
+            ],
+            "Australia": [
+                1970,
+                1980
+            ],
+            "Egypt": [
+                1970,
+                2020
+            ],
+            "Greece": [
+                1960,
+                2020
+            ],
+            "Iran": [
+                1970,
+                2020
+            ],
+            "SouthKorea": [
+                1970,
+                2020
+            ],
+            "UnitedNationsPeacekeepers": [
+                1960,
+                2010
+            ],
+            "Japan": [
+                1970,
+                2020
+            ],
+            "UK": [
+                1970,
+                1990
+            ]
+        }
+    },
+    {
+        "type": "F-4E-45MC",
         "operational": [
             1960,
             2010
@@ -34602,6 +34712,76 @@
         }
     },
     {
+        "type": "L118_Unit",
+        "operational": [
+            1970,
+            2020
+        ],
+        "operators": {
+            "Bahrain": [
+                1970,
+                2020
+            ],
+            "Oman": [
+                1970,
+                2020
+            ],
+            "Portugal": [
+                1970,
+                2020
+            ],
+            "Spain": [
+                1970,
+                2020
+            ],
+            "Thailand": [
+                1970,
+                2020
+            ],
+            "UK": [
+                1970,
+                2020
+            ],
+            "UnitedArabEmirates": [
+                1970,
+                2020
+            ],
+            "UnitedNationsPeacekeepers": [
+                1970,
+                2020
+            ],
+            "Australia": [
+                1970,
+                2020
+            ],
+            "TheNetherlands": [
+                1970,
+                2020
+            ],
+            "SouthKorea": [
+                1970,
+                2020
+            ],
+            "Brazil": [
+                1970,
+                2020
+            ],
+            "Morocco": [
+                1970,
+                2020
+            ],
+
+            "USA": [
+                1970,
+                2020
+              ],
+              "Ukraine": [
+                1970,
+                2020
+              ]
+        }
+    },
+    {
         "type": "L118",
         "operational": [
             1940,
@@ -34710,6 +34890,71 @@
             "Argentina": [
                 1960,
                 1990
+            ]
+        }
+    },
+    {
+        "type": "r11_volvo_drivable",
+        "operational": [
+            1990,
+            2020
+        ],
+        "operators": {
+            "USA": [
+                1990,
+                2020
+            ]
+        }
+    },
+    {
+        "type": "P20_drivable",
+        "operational": [
+            1980,
+            2020
+        ],
+        "operators": {
+            "USA": [
+                1980,
+                2020
+            ]
+        }
+    },
+    {
+        "type": "MJ-1_drivable",
+        "operational": [
+            1950,
+            2020
+        ],
+        "operators": {
+            "USA": [
+                1950,
+                2020
+            ]
+        }
+    },
+    {
+        "type": "B600_drivable",
+        "operational": [
+            1950,
+            2020
+        ],
+        "operators": {
+            "ALL": [
+                1950,
+                2020
+            ]
+        }
+    },
+    {
+        "type": "TugHarlan_drivable",
+        "operational": [
+            1950,
+            2020
+        ],
+        "operators": {
+            "ALL": [
+                1950,
+                2020
             ]
         }
     }
