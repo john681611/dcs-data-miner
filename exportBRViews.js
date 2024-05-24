@@ -26,6 +26,7 @@ const extractMods = {
     'BR_units_ships_mod': 'UnitShips',
     'BR_units_helicopters_mod': 'UnitHelicopters',
     'BR_units_cargo_mod': 'UnitCargo',
+    'BR_units_static_Fortifications_mod': 'UnitFortifications',
 }
 
 async function run() {

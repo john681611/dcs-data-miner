@@ -1,4 +1,5 @@
-const pipeline = [
+const { pipelineVanillaOnlyFilter } = require('../viewsUtils')
+const basePipeline = [
   {
     '$project': {
       'type': 1, 
@@ -10,7 +11,13 @@ const pipeline = [
   }
 ]
 
+const pipeline = [
+  pipelineVanillaOnlyFilter,
+  ...basePipeline
+]
+
 module.exports = {
+  basePipeline,
   pipeline,
   collection: "Fortifications",
   name: "BR_units_static_Fortifications",
