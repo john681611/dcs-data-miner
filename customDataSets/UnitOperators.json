@@ -31114,6 +31114,59 @@
         }
     },
     {
+        "type": "OH58D",
+        "operational": [
+            1990,
+            2020
+        ],
+        "operators": {
+            "USA": [
+                1990,
+                2020
+            ],
+            "USAFAggressors": [
+                1990,
+                2020
+            ],
+            "Croatia": [
+                2000,
+                2020
+            ],
+            "Iran": [
+                1990,
+                2020
+            ],
+            "SaudiArabia": [
+                2000,
+                2020
+            ],
+            "UnitedNationsPeacekeepers": [
+                1990,
+                2020
+            ],
+            "Australia": [
+                2000,
+                2020
+            ],
+            "Austria": [
+                2000,
+                2020
+            ],
+            "Canada": [
+                2000,
+                2020
+            ],
+            "Greece": [
+                2000,
+                2020
+            ],
+            "Turkey": [
+                2000,
+                2020
+            ]
+        }
+    },
+    {
         "type": "OH-58D",
         "operational": [
             1990,
