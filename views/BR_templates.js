@@ -7,10 +7,16 @@ const pipelineVanillaOnlyFilter = {
 const basePipeline = [
   {
     '$project': {
+      '_id': 0,
       'name': 1,
       'country': 1,
       'type': 1,
       'units': 1
+    }
+  },
+  {
+    '$sort': {
+      'name': 1
     }
   }
 ]

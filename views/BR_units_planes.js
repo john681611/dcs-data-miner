@@ -42,6 +42,7 @@ const basePipeline = [
     }
   }, {
     '$project': {
+      '_id': 0,
       'type': 1,
       'displayName': 1,
       'categories': 1,
@@ -70,6 +71,11 @@ const basePipeline = [
       'length': 1,
       'width': 1,
       'callsigns': 1
+    }
+  },
+  {
+    '$sort': {
+      'type': 1
     }
   }
 ]
