@@ -28,6 +28,7 @@ const basePipeline = [
     }
   }, {
     '$project': {
+      '_id': 0,
       'type': 1,
       'displayName': 1,
       'categories': 1,
@@ -39,6 +40,11 @@ const basePipeline = [
       'detectionRange': 1,
       'threatRangeMin':1,
       'threatRange':1
+    }
+  },
+  {
+    '$sort': {
+      'type': 1
     }
   }
 ]

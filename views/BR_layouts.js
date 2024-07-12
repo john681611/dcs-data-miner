@@ -1,6 +1,7 @@
 const pipeline = [
   {
     '$project': {
+      '_id': 0,
       'name': 1,
       'units': {
         'dx': 1,
@@ -9,7 +10,12 @@ const pipeline = [
       }
     }
   },
-  { '$set': { "minUnits": 0, "categories": [] } }
+  { '$set': { "minUnits": 0, "categories": [] } },
+  {
+    '$sort': {
+      'name': 1
+    }
+  }
 ]
 
 module.exports = {
