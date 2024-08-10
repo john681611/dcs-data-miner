@@ -31569,7 +31569,7 @@
         }
     },
     {
-        "type": "CH-47D",
+        "type": "CH-47Fbl1",
         "operational": [
             1980,
             2020
@@ -31661,6 +31661,99 @@
             ],
             "SouthKorea": [
                 1990,
+                2020
+            ]
+        }
+    },
+    {
+        "type": "CH-47F",
+        "operational": [
+            2000,
+            2020
+        ],
+        "operators": {
+            "USA": [
+                2000,
+                2020
+            ],
+            "Turkey": [
+                2010,
+                2020
+            ],
+            "UK": [
+                2000,
+                2020
+            ],
+            "USAFAggressors": [
+                2000,
+                2020
+            ],
+            "Canada": [
+                2000,
+                2020
+            ],
+            "Spain": [
+                2000,
+                2020
+            ],
+            "TheNetherlands": [
+                2000,
+                2020
+            ],
+            "Italy": [
+                2000,
+                2020
+            ],
+            "Australia": [
+                2000,
+                2020
+            ],
+            "Egypt": [
+                2000,
+                2020
+            ],
+            "Greece": [
+                2000,
+                2020
+            ],
+            "Japan": [
+                2000,
+                2020
+            ],
+            "SaudiArabia": [
+                2000,
+                2020
+            ],
+            "Thailand": [
+                2000,
+                2020
+            ],
+            "Morocco": [
+                2000,
+                2020
+            ],
+            "UnitedArabEmirates": [
+                2000,
+                2020
+            ],
+            "UnitedNationsPeacekeepers": [
+                2000,
+                2020
+            ],
+            "Argentina": [
+                2000,
+                2000
+            ],
+            "Austria": [
+                2000,
+                2020
+            ],
+            "India": [
+                2000,
+                2020
+            ],
+            "SouthKorea": [
+                2000,
                 2020
             ]
         }
