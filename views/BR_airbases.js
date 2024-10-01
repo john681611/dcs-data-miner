@@ -179,7 +179,7 @@ const pipeline = [
     }
   }, {
     '$unset': [
-      '_id','raw', 'radio', 'beacons', 'attributes', 'category_name', 'life', 'category', 'WorldID', 'callsign', '_origin'
+      '_id','raw', 'radio', 'beacons', 'attributes', 'category_name', 'life', 'category', 'WorldID', 'callsign', '_origin', '@created', '@dcsversion', 
     ]
   },
   {
