@@ -8954,6 +8954,34 @@
     }
   },
   {
+    "type": "F-86F_FC",
+    "operational": [1950, 1990],
+    "operators": {
+      "USA": [1950, 1970],
+      "Turkey": [1950, 1970],
+      "Canada": [1950, 1970],
+      "Spain": [1950, 1970],
+      "Norway": [1950, 1960],
+      "Denmark": [1960, 1960],
+      "Iran": [1960, 1970],
+      "Iraq": [1960, 1980],
+      "Japan": [1950, 1980],
+      "Pakistan": [1950, 1980],
+      "SaudiArabia": [1960, 1970],
+      "SouthKorea": [1950, 1990],
+      "Venezuela": [1950, 1970],
+      "Tunisia": [1970, 1980],
+      "Thailand": [1960, 1960],
+      "Philippines": [1950, 1980],
+      "Ethiopia": [1960, 1970],
+      "SouthAfrica": [1950, 1950],
+      "Portugal": [1960, 1980],
+      "Argentina": [1960, 1980],
+      "Bolivia": [1950, 1970],
+      "Peru": [1950, 1970]
+    }
+  },
+  {
     "type": "F-86F Sabre",
     "operational": [1950, 1990],
     "operators": {
@@ -9512,6 +9540,28 @@
       "Jordan": [1980, 2020]
     }
   },
+  {
+    "type": "Mirage-F1AD",
+    "operational": [1980, 2020],
+    "operators": {
+      "Libya": [1980, 2020]
+    }
+  },
+  {
+    "type": "Mirage-F1AZ",
+    "operational": [1980, 2020],
+    "operators": {
+      "SouthAfrica": [1980, 2020]
+    }
+  },
+  {
+    "type": "Falcon_Gyrocopter",
+    "operational": [2010, 2020],
+    "operators": {
+      "China": [2010, 2020]
+    }
+  },
+  
   {
     "type": "Yak-52",
     "operational": [1970, 2020],
