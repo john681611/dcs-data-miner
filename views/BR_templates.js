@@ -6,19 +6,72 @@ const pipelineVanillaOnlyFilter = {
 
 const basePipeline = [
   {
-    '$project': {
-      '_id': 0,
-      'name': 1,
-      'country': 1,
-      'type': 1,
-      'units': 1
+    $addFields: {
+      unitsArray: {
+        $cond: [
+          {
+            $isArray: "$units"
+          },
+          "$units",
+          {
+            $cond: [
+              {
+                $and: [
+                  {
+                    $ne: ["$units", null]
+                  },
+                  {
+                    $eq: [
+                      {
+                        $type: "$units"
+                      },
+                      "object"
+                    ]
+                  }
+                ]
+              },
+              {
+                $map: {
+                  input: {
+                    $objectToArray: "$units"
+                  },
+                  as: "el",
+                  in: "$$el.v"
+                }
+              },
+              []
+            ]
+          }
+        ]
+      }
     }
   },
   {
-    '$sort': {
-      'name': 1
+    $project: {
+      name: 1,
+      country: 1,
+      sys: 1,
+      type: 1,
+      units: {
+        $map: {
+          input: "$unitsArray",
+          as: "u",
+          in: {
+            coords: [
+              {
+                $ifNull: ["$$u.dx", null]
+              },
+              {
+                $ifNull: ["$$u.dy", null]
+              }
+            ],
+            specificType: "$$u.name",
+            heading: "$$u.heading"
+          }
+        }
+      }
     }
-  }
+  },
 ]
 
 const pipeline = [
