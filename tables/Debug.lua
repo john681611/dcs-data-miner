@@ -1,0 +1,22 @@
+--- MISSION:default:theatre,coords
+-- return briefingRoom.mission.objectives[1].unitNames
+--  return { 
+--     required = briefingRoom.mission.objectives[1].requiredCount,
+--     current = Airbase.getByName(briefingRoom.mission.objectives[1].airbaseName):getWarehouse():getItemCount(briefingRoom.mission.objectives[1].itemName),
+--     result = Airbase.getByName(briefingRoom.mission.objectives[1].airbaseName):getWarehouse():getItemCount(briefingRoom.mission.objectives[1].itemName) > briefingRoom.mission.objectives[1].requiredCount
+--  }
+-- return Airbase.getByName(briefingRoom.mission.objectives[1].airbaseName):getWarehouse():getItemCount(briefingRoom.mission.objectives[1].itemName)
+-- return  Airbase.getByName("Tbilisi-Lochini"):getWarehouse():getItemCount("weapons.bombs.BEER_BOMB")
+-- return  Airbase.getByName("Batumi"):getWarehouse():getInventory()
+--   local unitNames = {}
+--     -- for coaName, i in pairs(coalition.side) do
+-- for _,u in pairs(coalition.getAirbases(2)) do
+--           table.insert(unitNames, u:getName())
+--     end
+-- -- end
+-- return unitNames
+-- return StaticObject.getByName("89th industrial sector 1-TGT-HELL"):getCoalition()
+-- return dcsExtensions.getUnitNamesByGroupNameSuffix("-TGT-HELL")
+-- return  Airbase.getByName("81st production area-TGT-AVALON"):getWarehouse():getInventory()
+-- return  Airbase.getByName("FARP"):getWarehouse():getItemCount("weapons.bombs.BEER_BOMB")
+
