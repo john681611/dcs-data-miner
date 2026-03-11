@@ -122,7 +122,9 @@ while x > maps[theatre].xEnd do
                 z1 = Disposition.getSimpleZones(coords, 500, 10, 1, false)
             end
             for L = 1, #z1 do
-                table.insert(locs, { BRtype = BRtype, coords = { z1[L].x, z1[L].y }, theatre = theatre })
+                table.insert(locs,
+                { BRtype = BRtype, coords = { z1[L].x, z1[L].y, land.getHeight(z1[L]) }, theatre =
+                    theatre })
             end
         end
         z = z + 1000
