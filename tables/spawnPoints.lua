@@ -7,7 +7,7 @@ end
 local theatre = env.mission.theatre
 
 local id = 0
-local debug = true
+local debug = false
 -- IF UPDATING A MAP DELETE ALL THE OLD POINTS IN THE DATABASE
 local maps = {
     Afghanistan = { -- Done 03/07/2024
