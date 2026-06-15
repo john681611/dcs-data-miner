@@ -7,7 +7,7 @@ end
 local theatre = env.mission.theatre
 
 local id = 0
-local debug = false
+local debug = true
 -- IF UPDATING A MAP DELETE ALL THE OLD POINTS IN THE DATABASE
 local maps = {
     Afghanistan = { -- Done 03/07/2024
@@ -83,10 +83,10 @@ local maps = {
         zEnd = 558892
     },
     Syria = { -- Done 28/06/2024
-        x = 301000,
-        xEnd = -376000,
-        zStart = -424000,
-        zEnd = 420000
+        x = 370000,
+        xEnd = -459000,
+        zStart = -398000,
+        zEnd = 483000
     },
     TheChannel = { -- Done 04/07/2024
         x = 70873,
@@ -99,15 +99,30 @@ local map = maps[theatre]
 local z = maps[theatre].zStart -- start x
 local x = maps[theatre].x      -- start z
 
-function markSpot()
+function markSpot(color)
     if not debug then return end
-    trigger.action.circleToAll(-1, id, { x = x, z = z, y = 0 }, 500, { 1, 0, 0, 1 }, { 1, 0, 0, 0.2 }, 1, true)
+    trigger.action.circleToAll(
+        -1,
+        id,
+        { x = x, z = z, y = 0 },
+        1000,
+        { color[1], color[2], color[3], 1 },
+        { color[1], color[2], color[3], 0.2 },
+        1,
+        true
+    )
     id = id + 1
 end
 
 local locs = {}
+local loopIndex = 0
 while x > maps[theatre].xEnd do
-    markSpot()
+    local isFirstLoop = loopIndex == 0
+    local isLastLoop = (x - 1000) <= maps[theatre].xEnd
+    local shouldMark = (loopIndex % 2 == 0) or isFirstLoop or isLastLoop
+    if shouldMark then
+        markSpot({ 1, 0, 0 })
+    end
     while z < maps[theatre].zEnd do
         local coords = { x = x, z = z, y = 0 }
         if not debug and not Disposition.getPointWater(coords, 215, 1) then
@@ -129,10 +144,13 @@ while x > maps[theatre].xEnd do
         end
         z = z + 1000
     end
-    markSpot()
+    if shouldMark then
+        markSpot({ 0, 1, 0 })
+    end
     z = maps[theatre].zStart
     x = x - 1000
+    loopIndex = loopIndex + 1
 end
-markSpot()
+markSpot({ 0, 0, 1 })
 
 return locs
