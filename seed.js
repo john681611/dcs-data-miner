@@ -13,17 +13,32 @@ const path = require("path");
 const args = arg({
   "--only": String,
   "--help": Boolean,
+  "--collections": Boolean,
+  "--operators": Boolean,
+  "--views": Boolean,
   "-h": "--help",
+  "-c": "--collections",
+  "-o": "--operators",
+  "-v": "--views",
 });
 if (args["--help"]) {
   console.log(`Usage: node seed.js [options]
 Options:
-  --only <option>   Specify what to seed, options are: collections, operators, views
-  -h, --help        Show this help message`);
+  --only <option>      Specify what to seed: collections, operators, views
+  -c, --collections    Seed DCS collections only
+  -o, --operators      Seed custom operator/template files only
+  -v, --views          Seed/create DB views only
+  -h, --help           Show this help message`);
   process.exit(0);
 }
 
-const only = args["--only"];
+const only = args["--collections"]
+  ? "collections"
+  : args["--operators"]
+  ? "operators"
+  : args["--views"]
+  ? "views"
+  : args["--only"];
 
 const debug = require("debug")("me_db:seed");
 
@@ -76,10 +91,23 @@ const populateCollection =
         console.warn(e.message);
       }
     });
-    if (data)
+    if (data) {
+      const groupId = keyFields.reduce((a, v) => ({ ...a, [v]: `$${v}` }), {});
+      const dupes = await collection
+        .aggregate([
+          { $group: { _id: groupId, count: { $sum: 1 } } },
+          { $match: { count: { $gt: 1 } } },
+        ])
+        .toArray();
+      if (dupes.length > 0)
+        console.warn(
+          `Warning: ${dupes.length} duplicate key(s) found in collection ${name}:`,
+          dupes.map((d) => d._id)
+        );
       console.log(
         `Upsert Result - Name: ${name}, Total: ${data.length}, Mod: ${modifiedCount}, Upserted: ${upsertedCount}`
       );
+    }
   };
 
 const extractData = (dcsVersion) => async (_path) => {
@@ -116,7 +144,7 @@ const extractData = (dcsVersion) => async (_path) => {
       }
     });
   if (response.data && response.data.error) {
-    console.error(data.error.message, data.error.data);
+    console.error(response.data.error.message, response.data.error.data);
     data = undefined;
   }
   let data = response.data.result;
@@ -162,15 +190,11 @@ async function run() {
     .then((it) => it.data.result);
   console.log("DCS Connection OK");
   if (!only || only === "collections") {
-    console.log("Extracting information from DCS");
-    const collections = await Aigle.mapSeries(
-      await glob(FILES),
-      extractData(dcsVersion)
-    );
-    console.log("Extracted information from DCS");
-
-    console.log("Populating Mission Editor DB");
-    await Aigle.eachSeries(collections, populateCollection(dcsVersion));
+    console.log("Extracting and populating Mission Editor DB");
+    await Aigle.eachSeries(await glob(FILES), async (_path) => {
+      const collectionData = await extractData(dcsVersion)(_path);
+      await populateCollection(dcsVersion)(collectionData);
+    });
     console.log("Populated Mission Editor DB");
   }
 
