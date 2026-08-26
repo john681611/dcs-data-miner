@@ -35,10 +35,10 @@ Options:
 const only = args["--collections"]
   ? "collections"
   : args["--operators"]
-  ? "operators"
-  : args["--views"]
-  ? "views"
-  : args["--only"];
+    ? "operators"
+    : args["--views"]
+      ? "views"
+      : args["--only"];
 
 const debug = require("debug")("me_db:seed");
 
@@ -63,12 +63,12 @@ const populateCollection =
       const filePath = path.join(
         __dirname,
         "spawnPointsDump",
-        `${theatre}.json`
+        `${theatre}.json`,
       );
       await remove(filePath);
       await writeFile(filePath, JSON.stringify(data, null, 2));
       console.log(
-        `Spawn points data dumped to spawnPointsDump/${theatre}.json`
+        `Spawn points data dumped to spawnPointsDump/${theatre}.json`,
       );
       return;
     }
@@ -77,13 +77,13 @@ const populateCollection =
         const signed = sign(value, dcsVersion);
         const filter = keyFields.reduce(
           (a, v) => ({ ...a, [v]: signed[v] }),
-          {}
+          {},
         ); //Can add in DCS version here if we want to support multiple versions in the future.
         // use upsert to avoid duplication when running more than once (Eg more than one theatre)
         const response = await collection.updateOne(
           filter,
           { $set: signed },
-          { upsert: true }
+          { upsert: true },
         ); // TODO: Use Bulk Insert
         modifiedCount += response.modifiedCount;
         upsertedCount += response.upsertedCount;
@@ -102,52 +102,50 @@ const populateCollection =
       if (dupes.length > 0)
         console.warn(
           `Warning: ${dupes.length} duplicate key(s) found in collection ${name}:`,
-          dupes.map((d) => d._id)
+          dupes.map((d) => d._id),
         );
       console.log(
-        `Upsert Result - Name: ${name}, Total: ${data.length}, Mod: ${modifiedCount}, Upserted: ${upsertedCount}`
+        `Upsert Result - Name: ${name}, Total: ${data.length}, Mod: ${modifiedCount}, Upserted: ${upsertedCount}`,
       );
     }
   };
+const rpcPost = (baseURL, env, script) =>
+  axios.post(
+    `rpc`,
+    { jsonrpc: "2.0", method: "ping", params: [script, env], id: "1" },
+    { baseURL, params: { env }, maxContentLength: Infinity },
+  );
 
 const extractData = (dcsVersion) => async (_path) => {
   console.log(`Processing ${_path}`);
   const exportScript = readFileSync(_path, "utf-8");
   const [_, target, env, keyFieldsStr] = exportScript.match(
-    /^.*?(GUI|MISSION):(\w*):?(\w*,?\w*)/
+    /^.*?(GUI|MISSION):(\w*):?(\w*,?\w*)/,
   );
   const keyFields = keyFieldsStr.split(",");
   const name = basename(_path).replace(extname(_path), "");
   const baseURL = ENVS[target];
-  let response = await axios
-    .post(
-      `rpc`,
-      {
-        jsonrpc: "2.0",
-        method: "ping",
-        params: [exportScript, env],
-        id: "1",
-      },
-      {
-        baseURL,
-        params: { env },
-        maxContentLength: Infinity,
-      }
-    )
-    .catch((e) => {
+
+  const callRpc = (script) =>
+    rpcPost(baseURL, env, script).catch((e) => {
       if (e.code === "ECONNREFUSED") {
         console.info(
-          `Failed to connect to the target environment ${target}:${env} while processing ${_path}, please investigate further using DCS Fiddle`
+          `Failed to connect to the target environment ${target}:${env} while processing ${_path}, please investigate further using DCS Fiddle`,
         );
       } else {
         console.error(e);
       }
     });
+
+  let data;
+  const response = await callRpc(exportScript);
   if (response.data && response.data.error) {
     console.error(response.data.error.message, response.data.error.data);
     data = undefined;
+  } else {
+    data = response.data.result;
   }
-  let data = response.data.result;
+
   const schemaModulePath = resolve(_path.replace(".lua", ".schema.js"));
   if (await pathExists(schemaModulePath)) {
     const schema = require(schemaModulePath);
@@ -169,7 +167,7 @@ async function run() {
         .get(`${ENVS[key]}health`)
         .then((it) => it.data.result);
       return dcsVersion;
-    })
+    }),
   );
 
   const dcsVersion = await axios
@@ -185,7 +183,7 @@ async function run() {
         baseURL: ENVS.GUI,
         params: { env: "default" },
         maxContentLength: Infinity,
-      }
+      },
     )
     .then((it) => it.data.result);
   console.log("DCS Connection OK");
@@ -218,7 +216,7 @@ async function run() {
           keyFields: ["name", "country"],
         },
       ],
-      populateCollection("N/A")
+      populateCollection("N/A"),
     );
     console.log("Populated Custom File Tables");
   }
@@ -235,7 +233,9 @@ async function run() {
           await meDb
             .command({ create: name, viewOn: collection, pipeline })
             .catch((e) =>
-              console.error(`Failed to create view ${name} due to ${e.message}`)
+              console.error(
+                `Failed to create view ${name} due to ${e.message}`,
+              ),
             );
         });
     });
